@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title>IELTS Academy</title>
+  <rect width="512" height="512" rx="112" fill="#fdfbf7"/>
+  <path d="M256 58 420 109 387 352 256 454 125 352 92 109 256 58Z" fill="#0a2540"/>
+  <path d="M256 91 386 131 358 331 256 406 154 331 126 131 256 91Z" fill="#2563eb"/>
+  <path d="M196 183h120v35h-42v112h-36V218h-42v-35Z" fill="#fff"/>
+  <path d="M181 350h150" stroke="#82eadb" stroke-width="18" stroke-linecap="round"/>
+</svg>
