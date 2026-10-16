@@ -9,9 +9,10 @@ import { sinhalaGlosses } from "./content/sinhala";
 import { curriculum } from "./content/curriculum";
 import { getLesson, learningQuestions, lessons } from "./content/lessons";
 import { createAttemptId, gradeQuestion, nextReview } from "./services/grading";
-import { defaultSettings, getLessonProgress, getMistakes, getSettings, getWordProgress, resolveMistake, saveAttempt, saveLessonProgress, saveMistake, saveSettings, saveVocabularyReview, saveWordProgress } from "./services/storage";
+import { defaultSettings, getAllWordProgress, getLessonProgress, getMistakes, getSettings, getWordProgress, resolveMistake, saveAttempt, saveLessonProgress, saveMistake, saveSettings, saveVocabularyReview, saveWordProgress } from "./services/storage";
 import { listEnglishVoices, speakVocabulary, stopSpeech } from "./services/speech";
-import type { LearningQuestion, Lesson, MistakeRecord, UserSettings, VocabularyEntry } from "./types";
+import { VocabularyExperience } from "./components/VocabularyExperience";
+import type { LearningQuestion, Lesson, MistakeRecord, UserSettings, VocabularyEntry, WordProgress } from "./types";
 
 const vocabulary = [...(foundationVocabularyData as VocabularyEntry[]), ...(vocabularyData as VocabularyEntry[])];
 type View = "home" | "learn" | "lesson" | "vocabulary" | "practice" | "writing" | "progress";
@@ -72,16 +73,18 @@ export default function App() {
   const [selectedWord, setSelectedWord] = useState(vocabulary[0]);
   const [settings, setSettings] = useState<UserSettings>(defaultSettings);
   const [saved, setSaved] = useState(false);
+  const [wordProgress, setWordProgress] = useState<WordProgress[]>([]);
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [toast, setToast] = useState("");
   const [ready, setReady] = useState(false);
   const [speechStatus, setSpeechStatus] = useState<SpeechStatus>("idle");
-  const [activeLetter, setActiveLetter] = useState(-1);
+  const [activeExampleWord, setActiveExampleWord] = useState(-1);
+  const [vocabularyDetailOpen, setVocabularyDetailOpen] = useState(false);
   const [selectedLessonId, setSelectedLessonId] = useState("lesson-adverbs-basics");
   const [mistakes, setMistakes] = useState<MistakeRecord[]>([]);
   const [, refreshVoices] = useState(0);
-  const spellingTimer = useRef<number | undefined>(undefined);
-  const spellingStartTimer = useRef<number | undefined>(undefined);
+  const exampleTimer = useRef<number | undefined>(undefined);
+  const exampleStartTimer = useRef<number | undefined>(undefined);
 
   const notify = (message: string) => {
     setToast(message);
@@ -90,10 +93,11 @@ export default function App() {
 
   useEffect(() => {
     let active = true;
-    void Promise.all([getSettings(), getMistakes(), new Promise<void>((resolve) => window.setTimeout(resolve, 420))]).then(([storedSettings, storedMistakes]) => {
+    void Promise.all([getSettings(), getMistakes(), getAllWordProgress(), new Promise<void>((resolve) => window.setTimeout(resolve, 420))]).then(([storedSettings, storedMistakes, storedWordProgress]) => {
       if (!active) return;
       setSettings(storedSettings);
       setMistakes(storedMistakes);
+      setWordProgress(storedWordProgress);
       setReady(true);
     });
     return () => { active = false; };
@@ -123,30 +127,31 @@ export default function App() {
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
   }, [view]);
 
-  const stopSpellingAnimation = () => {
-    if (spellingStartTimer.current !== undefined) window.clearTimeout(spellingStartTimer.current);
-    if (spellingTimer.current !== undefined) window.clearInterval(spellingTimer.current);
-    spellingStartTimer.current = undefined;
-    spellingTimer.current = undefined;
-    setActiveLetter(-1);
+  const clearExampleHighlight = () => {
+    if (exampleStartTimer.current !== undefined) window.clearTimeout(exampleStartTimer.current);
+    if (exampleTimer.current !== undefined) window.clearInterval(exampleTimer.current);
+    exampleStartTimer.current = undefined;
+    exampleTimer.current = undefined;
+    setActiveExampleWord(-1);
   };
-  const startSpellingAnimation = () => {
-    stopSpellingAnimation();
+  const startExampleHighlight = (entry: VocabularyEntry) => {
+    clearExampleHighlight();
+    const words = entry.example.trim().split(/\s+/);
     let current = 0;
-    spellingStartTimer.current = window.setTimeout(() => {
-      spellingStartTimer.current = undefined;
-      setActiveLetter(current);
-      spellingTimer.current = window.setInterval(() => {
+    exampleStartTimer.current = window.setTimeout(() => {
+      exampleStartTimer.current = undefined;
+      setActiveExampleWord(current);
+      exampleTimer.current = window.setInterval(() => {
         current += 1;
-        if (current >= selectedWord.word.length) {
-          stopSpellingAnimation();
+        if (current >= words.length) {
+          clearExampleHighlight();
           return;
         }
-        setActiveLetter(current);
-      }, 170);
-    }, 360);
+        setActiveExampleWord(current);
+      }, Math.round(420 / settings.speechRate));
+    }, Math.round(520 / settings.speechRate));
   };
-  useEffect(() => () => stopSpellingAnimation(), []);
+  useEffect(() => () => clearExampleHighlight(), []);
 
   const setCurrentView = (next: View) => {
     if (next === "lesson") return;
@@ -154,38 +159,52 @@ export default function App() {
     setView(next);
     setSidebarOpen(false);
   };
-  const play = () => {
+  const play = (entry = selectedWord, includeExample = true) => {
     if (speechStatus !== "idle") {
       stopSpeech();
-      stopSpellingAnimation();
+      clearExampleHighlight();
       setSpeechStatus("idle");
       return;
     }
     setSpeechStatus("preparing");
-    const supported = speakVocabulary(selectedWord, settings, {
-      onStart: () => { setSpeechStatus("playing"); startSpellingAnimation(); },
-      onEnd: () => { setSpeechStatus("idle"); stopSpellingAnimation(); },
-      onError: () => { setSpeechStatus("idle"); stopSpellingAnimation(); notify("That voice could not play this word. Choose another installed English voice."); }
-    });
+    const supported = speakVocabulary(entry, settings, {
+      onStart: () => { setSpeechStatus("playing"); if (includeExample) startExampleHighlight(entry); },
+      onEnd: () => { setSpeechStatus("idle"); clearExampleHighlight(); },
+      onError: () => { setSpeechStatus("idle"); clearExampleHighlight(); notify("That voice could not play this word. Choose another installed English voice."); },
+      onBoundary: (characterIndex) => {
+        const exampleOffset = entry.word.length + 2;
+        if (!includeExample || characterIndex < exampleOffset) return;
+        const spoken = entry.example.slice(0, Math.max(0, characterIndex - exampleOffset)).trim();
+        setActiveExampleWord(spoken ? spoken.split(/\s+/).length : 0);
+      }
+    }, { includeExample });
     if (!supported) {
       setSpeechStatus("idle");
-      stopSpellingAnimation();
+      clearExampleHighlight();
       notify("Speech playback is not supported in this browser.");
     }
   };
   const toggleSaved = async () => {
     const next = !saved;
-    await saveWordProgress({ vocabularyId: selectedWord.id, mastery: "seen", saved: next });
+    const existing = wordProgress.find((record) => record.vocabularyId === selectedWord.id);
+    const nextRecord = { vocabularyId: selectedWord.id, mastery: existing?.mastery ?? "seen", saved: next } as WordProgress;
+    await saveWordProgress(nextRecord);
     setSaved(next);
+    setWordProgress((records) => [...records.filter((record) => record.vocabularyId !== selectedWord.id), nextRecord]);
     notify(next ? "Word saved to your review list." : "Word removed from saved words.");
   };
   const updateSettings = async (next: UserSettings) => { setSettings(next); await saveSettings(next); };
   const showWord = (word: VocabularyEntry) => {
     stopSpeech();
-    stopSpellingAnimation();
+    clearExampleHighlight();
     setSpeechStatus("idle");
     setSelectedWord(word);
+    setVocabularyDetailOpen(true);
     setCurrentView("vocabulary");
+  };
+  const quickPlayWord = (word: VocabularyEntry) => {
+    setSelectedWord(word);
+    play(word, false);
   };
   const openLesson = async (lessonId: string) => {
     const now = new Date().toISOString();
@@ -234,7 +253,7 @@ export default function App() {
         {view === "home" && <HomePage onView={setCurrentView} />}
         {view === "learn" && <LearnPage onView={setCurrentView} onOpenLesson={(id) => void openLesson(id)} />}
         {view === "lesson" && <LessonPage lesson={getLesson(selectedLessonId) ?? lessons[0]} onBack={() => setCurrentView("learn")} onOpenLesson={(id) => void openLesson(id)} onAttempt={recordAttempt} onComplete={completeLesson} />}
-        {view === "vocabulary" && <VocabularyPage query={query} word={selectedWord} setWord={showWord} onPlay={play} speechStatus={speechStatus} activeLetter={activeLetter} saved={saved} onSave={() => void toggleSaved()} settings={settings} onSettings={updateSettings} />}
+        {view === "vocabulary" && <VocabularyExperience query={query} onQueryChange={setQuery} entries={searchVocabulary(query)} allEntries={vocabulary} wordProgress={wordProgress} word={selectedWord} setWord={showWord} onPlay={() => play(selectedWord, true)} onQuickPlay={quickPlayWord} speechStatus={speechStatus} activeExampleWord={activeExampleWord} detailOpen={vocabularyDetailOpen} onCloseDetail={() => { stopSpeech(); clearExampleHighlight(); setSpeechStatus("idle"); setVocabularyDetailOpen(false); }} saved={saved} onSave={() => void toggleSaved()} settings={settings} onSettings={updateSettings} />}
         {view === "practice" && <PracticePage onOpenLesson={(id) => void openLesson(id)} onAttempt={recordAttempt} />}
         {view === "writing" && <WritingPage />}
         {view === "progress" && <ProgressPage mistakes={mistakes} onOpenLesson={(id) => void openLesson(id)} />}
@@ -286,7 +305,7 @@ function HomePage({ onView }: { onView: (view: View) => void }) {
 
 function LearnPage({ onView, onOpenLesson }: { onView: (view: View) => void; onOpenLesson: (lessonId: string) => void }) { return <div className="page"><PageTitle label="A connected curriculum" title="Find your next useful step." text="Move freely through the map. Every advanced lesson shows the foundations that can make it easier." /><div className="level-grid">{curriculum.map((level, index) => <article className={`level-card ${level.color}`} key={level.id}><span>LEVEL {String(index + 1).padStart(2, "0")}</span><h2>{level.title}</h2><p>{level.description}</p><div className="lesson-pips">{Array.from({ length: 5 }, (_, pip) => <i className={pip < (index < 3 ? 2 : 0) ? "complete" : ""} key={pip} />)}</div><small>{level.outcome}</small><button onClick={() => onView(index < 3 ? "practice" : "writing")}>{index === 1 ? "Study vocabulary" : "Open level"}<ChevronRight size={16} /></button></article>)}</div><section className="content-card lesson-library"><div className="section-row"><div><span className="eyebrow">Data-driven starter lessons</span><h2>Study a complete lesson path</h2></div><span className="status-pill">{lessons.length} lessons</span></div><div className="lesson-list">{lessons.map((lesson) => <button key={lesson.id} onClick={() => onOpenLesson(lesson.id)}><span>{lesson.level} · {lesson.estimatedMinutes} min</span><strong>{lesson.title}</strong><p>{lesson.objectives[0]}</p><ChevronRight size={18} /></button>)}</div></section></div>; }
 
-function VocabularyPage({ query, word, setWord, onPlay, speechStatus, activeLetter, saved, onSave, settings, onSettings }: { query: string; word: VocabularyEntry; setWord: (word: VocabularyEntry) => void; onPlay: () => void; speechStatus: SpeechStatus; activeLetter: number; saved: boolean; onSave: () => void; settings: UserSettings; onSettings: (settings: UserSettings) => void }) {
+export function VocabularyPageLegacy({ query, word, setWord, onPlay, speechStatus, activeLetter, saved, onSave, settings, onSettings }: { query: string; word: VocabularyEntry; setWord: (word: VocabularyEntry) => void; onPlay: () => void; speechStatus: SpeechStatus; activeLetter: number; saved: boolean; onSave: () => void; settings: UserSettings; onSettings: (settings: UserSettings) => void }) {
   const [showSettings, setShowSettings] = useState(false);
   const results = useMemo(() => {
     const uniqueWords = new Map<string, VocabularyEntry>();

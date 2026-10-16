@@ -50,6 +50,10 @@ export async function getWordProgress(id: string) {
   return (await db).get("wordProgress", id);
 }
 
+export async function getAllWordProgress() {
+  return (await db).getAll("wordProgress");
+}
+
 export async function getLessonProgress(lessonId: string) {
   return (await db).get("lessonProgress", lessonId);
 }

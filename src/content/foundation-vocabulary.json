@@ -1,1705 +1,1605 @@
-﻿[
-    {
-        "id":  "word-learn",
-        "word":  "learn",
-        "partOfSpeech":  "verb",
-        "level":  "A2",
-        "ipa":  "/lÉœËn/",
-        "definition":  "To gain knowledge or a skill by studying or practising.",
-        "sinhala":  "à¶‰à¶œà·™à¶± à¶œà¶±à·Šà¶±à·€à·",
-        "example":  "I learn five useful English words every day.",
-        "collocations":  [
-                             "learn English",
-                             "learn how to",
-                             "learn from mistakes"
-                         ],
-        "wordFamilyIds":  [
-                              "word-learning"
-                          ],
-        "tags":  [
-                     "foundation",
-                     "study"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-learning-habits"
-                             ]
-    },
-    {
-        "id":  "word-learning",
-        "word":  "learning",
-        "partOfSpeech":  "noun",
-        "level":  "A2",
-        "ipa":  "/ËˆlÉœËnÉªÅ‹/",
-        "definition":  "The activity or process of gaining knowledge or a skill.",
-        "sinhala":  "à¶‰à¶œà·™à¶±à·“à¶¸",
-        "example":  "Regular review makes learning easier.",
-        "collocations":  [
-                             "active learning",
-                             "learning process",
-                             "online learning"
-                         ],
-        "wordFamilyIds":  [
-                              "word-learn"
-                          ],
-        "tags":  [
-                     "foundation",
-                     "study"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-learning-habits"
-                             ]
-    },
-    {
-        "id":  "word-practise",
-        "word":  "practise",
-        "partOfSpeech":  "verb",
-        "level":  "A2",
-        "ipa":  "/ËˆprÃ¦ktÉªs/",
-        "definition":  "To do an activity regularly in order to improve.",
-        "sinhala":  "à¶´à·”à·„à·”à¶«à·” à·€à·™à¶±à·€à·",
-        "example":  "She practises speaking English after class.",
-        "collocations":  [
-                             "practise speaking",
-                             "practise regularly",
-                             "practise a skill"
-                         ],
-        "wordFamilyIds":  [
-                              "word-practice"
-                          ],
-        "tags":  [
-                     "foundation",
-                     "study"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-learning-habits"
-                             ]
-    },
-    {
-        "id":  "word-practice",
-        "word":  "practice",
-        "partOfSpeech":  "noun",
-        "level":  "A2",
-        "ipa":  "/ËˆprÃ¦ktÉªs/",
-        "definition":  "Regular activity that helps you improve a skill.",
-        "sinhala":  "à¶´à·”à·„à·”à¶«à·”à·€",
-        "example":  "Daily practice builds confidence.",
-        "collocations":  [
-                             "daily practice",
-                             "speaking practice",
-                             "practice test"
-                         ],
-        "wordFamilyIds":  [
-                              "word-practise"
-                          ],
-        "tags":  [
-                     "foundation",
-                     "study"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-learning-habits"
-                             ]
-    },
-    {
-        "id":  "word-answer",
-        "word":  "answer",
-        "partOfSpeech":  "noun",
-        "level":  "A2",
-        "ipa":  "/ËˆÉ‘ËnsÉ™(r)/",
-        "definition":  "Something said or written in reply to a question.",
-        "sinhala":  "à¶´à·’à·…à·’à¶­à·”à¶»",
-        "example":  "Read the question carefully before choosing your answer.",
-        "collocations":  [
-                             "correct answer",
-                             "short answer",
-                             "answer a question"
-                         ],
-        "wordFamilyIds":  [
-                              "word-answer-verb"
-                          ],
-        "tags":  [
-                     "foundation",
-                     "exam"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-question-skills"
-                             ]
-    },
-    {
-        "id":  "word-answer-verb",
-        "word":  "answer",
-        "partOfSpeech":  "verb",
-        "level":  "A2",
-        "ipa":  "/ËˆÉ‘ËnsÉ™(r)/",
-        "definition":  "To say or write something in reply to a question.",
-        "sinhala":  "à¶´à·’à·…à·’à¶­à·”à¶»à·” à¶¯à·™à¶±à·Šà¶±à·€à·",
-        "example":  "Try to answer every question in the test.",
-        "collocations":  [
-                             "answer correctly",
-                             "answer a question",
-                             "answer briefly"
-                         ],
-        "wordFamilyIds":  [
-                              "word-answer"
-                          ],
-        "tags":  [
-                     "foundation",
-                     "exam"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-question-skills"
-                             ]
-    },
-    {
-        "id":  "word-question",
-        "word":  "question",
-        "partOfSpeech":  "noun",
-        "level":  "A2",
-        "ipa":  "/ËˆkwestÊƒÉ™n/",
-        "definition":  "A sentence or phrase used to ask for information.",
-        "sinhala":  "à¶´à·Šâ€à¶»à·à·Šà¶±à¶º",
-        "example":  "This question asks you to compare two charts.",
-        "collocations":  [
-                             "ask a question",
-                             "answer a question",
-                             "question type"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "foundation",
-                     "exam"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-question-skills"
-                             ]
-    },
-    {
-        "id":  "word-example",
-        "word":  "example",
-        "partOfSpeech":  "noun",
-        "level":  "A2",
-        "ipa":  "/ÉªÉ¡ËˆzÉ‘ËmpÉ™l/",
-        "definition":  "Something that shows what another thing is like.",
-        "sinhala":  "à¶‹à¶¯à·à·„à¶»à¶«à¶º",
-        "example":  "The teacher gave an example of a clear sentence.",
-        "collocations":  [
-                             "for example",
-                             "give an example",
-                             "clear example"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "foundation",
-                     "study"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-sentence-structure"
-                             ]
-    },
-    {
-        "id":  "word-describe",
-        "word":  "describe",
-        "partOfSpeech":  "verb",
-        "level":  "A2",
-        "ipa":  "/dÉªËˆskraÉªb/",
-        "definition":  "To say or write what someone or something is like.",
-        "sinhala":  "à·€à·’à·ƒà·Šà¶­à¶» à¶šà¶»à¶±à·Šà¶±à·€à·",
-        "example":  "Describe the main change in the chart.",
-        "collocations":  [
-                             "describe a chart",
-                             "describe clearly",
-                             "describe changes"
-                         ],
-        "wordFamilyIds":  [
-                              "word-description"
-                          ],
-        "tags":  [
-                     "foundation",
-                     "writing-task-1"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-task-1-intro"
-                             ]
-    },
-    {
-        "id":  "word-description",
-        "word":  "description",
-        "partOfSpeech":  "noun",
-        "level":  "B1",
-        "ipa":  "/dÉªËˆskrÉªpÊƒÉ™n/",
-        "definition":  "A spoken or written account of what someone or something is like.",
-        "sinhala":  "à·€à·’à·ƒà·Šà¶­à¶»à¶º",
-        "example":  "Her description of the graph was accurate.",
-        "collocations":  [
-                             "clear description",
-                             "brief description",
-                             "written description"
-                         ],
-        "wordFamilyIds":  [
-                              "word-describe"
-                          ],
-        "tags":  [
-                     "foundation",
-                     "writing-task-1"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-task-1-intro"
-                             ]
-    },
-    {
-        "id":  "word-compare",
-        "word":  "compare",
-        "partOfSpeech":  "verb",
-        "level":  "A2",
-        "ipa":  "/kÉ™mËˆpeÉ™(r)/",
-        "definition":  "To examine two or more things to see how they are similar or different.",
-        "sinhala":  "à·ƒà·ƒà¶³à¶±à·Šà¶±à·€à·",
-        "example":  "Compare the figures for men and women.",
-        "collocations":  [
-                             "compare with",
-                             "compare figures",
-                             "compare two things"
-                         ],
-        "wordFamilyIds":  [
-                              "word-comparison"
-                          ],
-        "tags":  [
-                     "foundation",
-                     "comparison"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-comparison"
-                             ]
-    },
-    {
-        "id":  "word-comparison",
-        "word":  "comparison",
-        "partOfSpeech":  "noun",
-        "level":  "B1",
-        "ipa":  "/kÉ™mËˆpÃ¦rÉªsÉ™n/",
-        "definition":  "The act of examining things to find similarities and differences.",
-        "sinhala":  "à·ƒà·à·ƒà¶³à·“à¶¸",
-        "example":  "The comparison shows a clear difference between the groups.",
-        "collocations":  [
-                             "make a comparison",
-                             "by comparison",
-                             "comparison between"
-                         ],
-        "wordFamilyIds":  [
-                              "word-compare"
-                          ],
-        "tags":  [
-                     "foundation",
-                     "comparison"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-comparison"
-                             ]
-    },
-    {
-        "id":  "word-change",
-        "word":  "change",
-        "partOfSpeech":  "noun",
-        "level":  "A2",
-        "ipa":  "/tÊƒeÉªndÊ’/",
-        "definition":  "Something becoming different.",
-        "sinhala":  "à·€à·™à¶±à·ƒ",
-        "example":  "The graph shows a change in travel habits.",
-        "collocations":  [
-                             "major change",
-                             "change in",
-                             "show a change"
-                         ],
-        "wordFamilyIds":  [
-                              "word-change-verb"
-                          ],
-        "tags":  [
-                     "foundation",
-                     "trends"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-trends"
-                             ]
-    },
-    {
-        "id":  "word-change-verb",
-        "word":  "change",
-        "partOfSpeech":  "verb",
-        "level":  "A2",
-        "ipa":  "/tÊƒeÉªndÊ’/",
-        "definition":  "To become different or to make something different.",
-        "sinhala":  "à·€à·™à¶±à·ƒà·Š à·€à·™à¶±à·€à·",
-        "example":  "Travel patterns changed after the new road opened.",
-        "collocations":  [
-                             "change over time",
-                             "change quickly",
-                             "change from"
-                         ],
-        "wordFamilyIds":  [
-                              "word-change"
-                          ],
-        "tags":  [
-                     "foundation",
-                     "trends"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-trends"
-                             ]
-    },
-    {
-        "id":  "word-number",
-        "word":  "number",
-        "partOfSpeech":  "noun",
-        "level":  "A2",
-        "ipa":  "/ËˆnÊŒmbÉ™(r)/",
-        "definition":  "A quantity or amount expressed with figures.",
-        "sinhala":  "à·ƒà¶‚à¶›à·Šâ€à¶ºà·à·€",
-        "example":  "The number of visitors increased in July.",
-        "collocations":  [
-                             "number of",
-                             "large number",
-                             "total number"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "foundation",
-                     "data"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-trends"
-                             ]
-    },
-    {
-        "id":  "word-chart",
-        "word":  "chart",
-        "partOfSpeech":  "noun",
-        "level":  "A2",
-        "ipa":  "/tÊƒÉ‘Ët/",
-        "definition":  "A diagram that shows information or data.",
-        "sinhala":  "à¶´à·Šâ€à¶»à·ƒà·Šà¶®à·à¶»à¶º",
-        "example":  "The bar chart compares three age groups.",
-        "collocations":  [
-                             "bar chart",
-                             "line chart",
-                             "chart shows"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "foundation",
-                     "data",
-                     "writing-task-1"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-task-1-intro"
-                             ]
-    },
-    {
-        "id":  "word-table",
-        "word":  "table",
-        "partOfSpeech":  "noun",
-        "level":  "A2",
-        "ipa":  "/ËˆteÉªbÉ™l/",
-        "definition":  "A set of facts or figures arranged in rows and columns.",
-        "sinhala":  "à·€à¶œà·”à·€",
-        "example":  "The table gives information about household income.",
-        "collocations":  [
-                             "table shows",
-                             "data table",
-                             "in the table"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "foundation",
-                     "data",
-                     "writing-task-1"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-task-1-intro"
-                             ]
-    },
-    {
-        "id":  "word-show",
-        "word":  "show",
-        "partOfSpeech":  "verb",
-        "level":  "A2",
-        "ipa":  "/ÊƒÉ™ÊŠ/",
-        "definition":  "To make something clear or possible to see.",
-        "sinhala":  "à¶´à·™à¶±à·Šà·€à¶±à·Šà¶±à·€à·",
-        "example":  "The figures show a steady rise in sales.",
-        "collocations":  [
-                             "show a change",
-                             "show clearly",
-                             "figures show"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "foundation",
-                     "writing-task-1"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-task-1-intro"
-                             ]
-    },
-    {
-        "id":  "word-improve",
-        "word":  "improve",
-        "partOfSpeech":  "verb",
-        "level":  "A2",
-        "ipa":  "/ÉªmËˆpruËv/",
-        "definition":  "To become better or to make something better.",
-        "sinhala":  "à·€à·à¶©à·’à¶¯à·’à¶ºà·”à¶«à·” à·€à·™à¶±à·€à·",
-        "example":  "Reading every day can improve your vocabulary.",
-        "collocations":  [
-                             "improve skills",
-                             "improve greatly",
-                             "improve your English"
-                         ],
-        "wordFamilyIds":  [
-                              "word-improvement"
-                          ],
-        "tags":  [
-                     "foundation",
-                     "study"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-learning-habits"
-                             ]
-    },
-    {
-        "id":  "word-improvement",
-        "word":  "improvement",
-        "partOfSpeech":  "noun",
-        "level":  "B1",
-        "ipa":  "/ÉªmËˆpruËvmÉ™nt/",
-        "definition":  "A change that makes something better.",
-        "sinhala":  "à·€à·à¶©à·’à¶¯à·’à¶ºà·”à¶«à·” à·€à·“à¶¸",
-        "example":  "There was a clear improvement in her speaking.",
-        "collocations":  [
-                             "show improvement",
-                             "major improvement",
-                             "room for improvement"
-                         ],
-        "wordFamilyIds":  [
-                              "word-improve"
-                          ],
-        "tags":  [
-                     "foundation",
-                     "study"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-learning-habits"
-                             ]
-    },
-    {
-        "id":  "word-important",
-        "word":  "important",
-        "partOfSpeech":  "adjective",
-        "level":  "A2",
-        "ipa":  "/ÉªmËˆpÉ”ËtÉ™nt/",
-        "definition":  "Having great value or influence.",
-        "sinhala":  "à·€à·à¶¯à¶œà¶­à·Š",
-        "example":  "It is important to understand the question first.",
-        "collocations":  [
-                             "very important",
-                             "important role",
-                             "important to"
-                         ],
-        "wordFamilyIds":  [
-                              "word-importance"
-                          ],
-        "tags":  [
-                     "foundation",
-                     "academic"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-sentence-structure"
-                             ]
-    },
-    {
-        "id":  "word-importance",
-        "word":  "importance",
-        "partOfSpeech":  "noun",
-        "level":  "B1",
-        "ipa":  "/ÉªmËˆpÉ”ËtÉ™ns/",
-        "definition":  "The quality of being valuable or having a strong effect.",
-        "sinhala":  "à·€à·à¶¯à¶œà¶­à·Šà¶šà¶¸",
-        "example":  "The lesson explains the importance of regular practice.",
-        "collocations":  [
-                             "importance of",
-                             "great importance",
-                             "of importance"
-                         ],
-        "wordFamilyIds":  [
-                              "word-important"
-                          ],
-        "tags":  [
-                     "foundation",
-                     "academic"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-sentence-structure"
-                             ]
-    },
-    {
-        "id":  "word-different",
-        "word":  "different",
-        "partOfSpeech":  "adjective",
-        "level":  "A2",
-        "ipa":  "/ËˆdÉªfrÉ™nt/",
-        "definition":  "Not the same as another person or thing.",
-        "sinhala":  "à·€à·™à¶±à·ƒà·Š",
-        "example":  "The two cities have different transport systems.",
-        "collocations":  [
-                             "different from",
-                             "very different",
-                             "key difference"
-                         ],
-        "wordFamilyIds":  [
-                              "word-difference"
-                          ],
-        "tags":  [
-                     "foundation",
-                     "comparison"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-comparison"
-                             ]
-    },
-    {
-        "id":  "word-difference",
-        "word":  "difference",
-        "partOfSpeech":  "noun",
-        "level":  "A2",
-        "ipa":  "/ËˆdÉªfrÉ™ns/",
-        "definition":  "A way in which people or things are not the same.",
-        "sinhala":  "à·€à·™à¶±à·ƒ",
-        "example":  "There is a large difference between the two results.",
-        "collocations":  [
-                             "main difference",
-                             "difference between",
-                             "make a difference"
-                         ],
-        "wordFamilyIds":  [
-                              "word-different"
-                          ],
-        "tags":  [
-                     "foundation",
-                     "comparison"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-comparison"
-                             ]
-    },
-    {
-        "id":  "word-furthermore",
-        "word":  "furthermore",
-        "partOfSpeech":  "adverb",
-        "level":  "B2",
-        "ipa":  "/ËŒfÉœËÃ°É™ËˆmÉ”Ë(r)/",
-        "definition":  "Used to introduce additional information that supports a previous point.",
-        "sinhala":  "à¶­à·€à¶¯",
-        "example":  "Furthermore, regular practice improves communication skills.",
-        "collocations":  [
-                             "furthermore, it shows",
-                             "furthermore, the study",
-                             "furthermore, we can"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "academic",
-                     "linking-words"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-sentence-structure"
-                             ]
-    },
-    {
-        "id":  "word-moreover",
-        "word":  "moreover",
-        "partOfSpeech":  "adverb",
-        "level":  "B2",
-        "ipa":  "/mÉ”ËrËˆÉ™ÊŠvÉ™(r)/",
-        "definition":  "Used to add information that strengthens a previous statement.",
-        "sinhala":  "à¶‘à¶´à¶¸à¶«à¶šà·Š à¶±à·œà·€",
-        "example":  "Moreover, the proposed solution is affordable.",
-        "collocations":  [
-                             "moreover, it provides",
-                             "moreover, the results",
-                             "moreover, this approach"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "academic",
-                     "linking-words"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-sentence-structure"
-                             ]
-    },
-    {
-        "id":  "word-nevertheless",
-        "word":  "nevertheless",
-        "partOfSpeech":  "adverb",
-        "level":  "B2",
-        "ipa":  "/ËŒnevÉ™Ã°É™Ëˆles/",
-        "definition":  "Despite what has just been mentioned; even so.",
-        "sinhala":  "à¶‘à·ƒà·š à·€à·”à·€à¶¯",
-        "example":  "The task was challenging; nevertheless, we completed it.",
-        "collocations":  [
-                             "nevertheless, it remains",
-                             "nevertheless, the results",
-                             "but nevertheless"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "academic",
-                     "contrast",
-                     "linking-words"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-sentence-structure"
-                             ]
-    },
-    {
-        "id":  "word-subsequently",
-        "word":  "subsequently",
-        "partOfSpeech":  "adverb",
-        "level":  "B2",
-        "ipa":  "/ËˆsÊŒbsÉªkwÉ™ntli/",
-        "definition":  "After a particular event or point in time.",
-        "sinhala":  "à¶‰à¶±à·Š à¶…à¶±à¶­à·”à¶»à·”à·€",
-        "example":  "The defect was identified and subsequently corrected.",
-        "collocations":  [
-                             "subsequently discovered",
-                             "subsequently updated",
-                             "subsequently developed"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "academic",
-                     "sequence"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-sentence-structure"
-                             ]
-    },
-    {
-        "id":  "word-initially",
-        "word":  "initially",
-        "partOfSpeech":  "adverb",
-        "level":  "B1",
-        "ipa":  "/ÉªËˆnÉªÊƒÉ™li/",
-        "definition":  "At the beginning of a process or situation.",
-        "sinhala":  "à¶¸à·”à¶½à¶¯à·“",
-        "example":  "Initially, the application supported only one user role.",
-        "collocations":  [
-                             "initially planned",
-                             "initially developed",
-                             "initially intended"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "academic",
-                     "sequence"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-sentence-structure"
-                             ]
-    },
-    {
-        "id":  "word-ultimately",
-        "word":  "ultimately",
-        "partOfSpeech":  "adverb",
-        "level":  "B2",
-        "ipa":  "/ËˆÊŒltÉªmÉ™tli/",
-        "definition":  "Finally, after considering all relevant facts or events.",
-        "sinhala":  "à¶…à·€à·ƒà·à¶±à¶ºà·šà¶¯à·“",
-        "example":  "Ultimately, the quality of the software depends on its design.",
-        "collocations":  [
-                             "ultimately responsible",
-                             "ultimately depends on",
-                             "ultimately leads to"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "academic",
-                     "conclusion"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-sentence-structure"
-                             ]
-    },
-    {
-        "id":  "word-clarify",
-        "word":  "clarify",
-        "partOfSpeech":  "verb",
-        "level":  "B2",
-        "ipa":  "/ËˆklÃ¦rÉªfaÉª/",
-        "definition":  "To make something easier to understand by explaining it more clearly.",
-        "sinhala":  "à¶´à·à·„à·à¶¯à·’à¶½à·’ à¶šà¶»à¶±à·€à·",
-        "example":  "The developer asked the client to clarify the requirements.",
-        "collocations":  [
-                             "clarify a requirement",
-                             "clarify the meaning",
-                             "clarify a point"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "communication",
-                     "requirements"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-sentence-structure"
-                             ]
-    },
-    {
-        "id":  "word-demonstrate",
-        "word":  "demonstrate",
-        "partOfSpeech":  "verb",
-        "level":  "B2",
-        "ipa":  "/ËˆdemÉ™nstreÉªt/",
-        "definition":  "To show clearly that something exists or how something works.",
-        "sinhala":  "à¶´à·™à¶±à·Šà·€à· à¶¯à·™à¶±à·€à·",
-        "example":  "The experiment demonstrates the effectiveness of the method.",
-        "collocations":  [
-                             "demonstrate effectiveness",
-                             "demonstrate a skill",
-                             "clearly demonstrate"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "academic",
-                     "explanation"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-sentence-structure"
-                             ]
-    },
-    {
-        "id":  "word-identify",
-        "word":  "identify",
-        "partOfSpeech":  "verb",
-        "level":  "B1",
-        "ipa":  "/aÉªËˆdentÉªfaÉª/",
-        "definition":  "To recognise or establish what someone or something is.",
-        "sinhala":  "à·„à¶³à·”à¶±à· à¶œà¶±à·Šà¶±à·€à·",
-        "example":  "The analysis helped us identify the root cause of the error.",
-        "collocations":  [
-                             "identify a problem",
-                             "identify a pattern",
-                             "identify the cause"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "problem-solving",
-                     "academic"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-question-skills"
-                             ]
-    },
-    {
-        "id":  "word-determine",
-        "word":  "determine",
-        "partOfSpeech":  "verb",
-        "level":  "B2",
-        "ipa":  "/dÉªËˆtÉœËmÉªn/",
-        "definition":  "To discover or establish something by investigation or reasoning.",
-        "sinhala":  "à¶±à·’à·à·Šà¶ à¶º à¶šà¶»à¶±à·€à·",
-        "example":  "Further testing will determine whether the fix is reliable.",
-        "collocations":  [
-                             "determine the cause",
-                             "determine the outcome",
-                             "determine whether"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "academic",
-                     "problem-solving"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-question-skills"
-                             ]
-    },
-    {
-        "id":  "word-justify",
-        "word":  "justify",
-        "partOfSpeech":  "verb",
-        "level":  "B2",
-        "ipa":  "/ËˆdÊ’ÊŒstÉªfaÉª/",
-        "definition":  "To provide reasons or evidence showing that a decision or action is reasonable.",
-        "sinhala":  "à·ƒà·à¶°à·à¶»à¶«à·“à¶šà¶»à¶«à¶º à¶šà¶»à¶±à·€à·",
-        "example":  "The researcher justified the choice of methodology.",
-        "collocations":  [
-                             "justify a decision",
-                             "justify an approach",
-                             "justify a claim"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "academic",
-                     "argument"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-sentence-structure"
-                             ]
-    },
-    {
-        "id":  "word-establish",
-        "word":  "establish",
-        "partOfSpeech":  "verb",
-        "level":  "B2",
-        "ipa":  "/ÉªËˆstÃ¦blÉªÊƒ/",
-        "definition":  "To create something or demonstrate that something is true.",
-        "sinhala":  "à¶´à·’à·„à·’à¶§à·”à·€à¶±à·€à· / à¶­à·„à·€à·”à¶»à·” à¶šà¶»à¶±à·€à·",
-        "example":  "The study established a relationship between the two variables.",
-        "collocations":  [
-                             "establish a relationship",
-                             "establish a framework",
-                             "establish a fact"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "academic",
-                     "research"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-sentence-structure"
-                             ]
-    },
-    {
-        "id":  "word-address",
-        "word":  "address",
-        "partOfSpeech":  "verb",
-        "level":  "B2",
-        "ipa":  "/É™Ëˆdres/",
-        "definition":  "To take action to deal with a problem or issue.",
-        "sinhala":  "à¶œà·à¶§à¶½à·”à·€à¶šà¶§ à·€à·’à·ƒà¶³à·”à¶¸à·Š à¶½à¶¶à· à¶¯à·“à¶¸à¶§ à¶šà¶§à¶ºà·”à¶­à·” à¶šà¶»à¶±à·€à·",
-        "example":  "The proposed changes address several security concerns.",
-        "collocations":  [
-                             "address an issue",
-                             "address a concern",
-                             "address a problem"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "problem-solving",
-                     "professional"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-question-skills"
-                             ]
-    },
-    {
-        "id":  "word-facilitate",
-        "word":  "facilitate",
-        "partOfSpeech":  "verb",
-        "level":  "B2",
-        "ipa":  "/fÉ™ËˆsÉªlÉªteÉªt/",
-        "definition":  "To make an activity or process easier.",
-        "sinhala":  "à¶´à·„à·ƒà·” à¶šà¶»à¶±à·€à·",
-        "example":  "Clear documentation facilitates collaboration among developers.",
-        "collocations":  [
-                             "facilitate communication",
-                             "facilitate learning",
-                             "facilitate collaboration"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "academic",
-                     "professional"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-learning-habits"
-                             ]
-    },
-    {
-        "id":  "word-enhance",
-        "word":  "enhance",
-        "partOfSpeech":  "verb",
-        "level":  "B2",
-        "ipa":  "/ÉªnËˆhÉ‘Ëns/",
-        "definition":  "To improve the quality, value or effectiveness of something.",
-        "sinhala":  "à·€à·à¶©à·’à¶¯à·’à¶ºà·”à¶«à·” à¶šà¶»à¶±à·€à·",
-        "example":  "Regular feedback can enhance the quality of a project.",
-        "collocations":  [
-                             "enhance performance",
-                             "enhance quality",
-                             "enhance security"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "professional",
-                     "improvement"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-learning-habits"
-                             ]
-    },
-    {
-        "id":  "word-mitigate",
-        "word":  "mitigate",
-        "partOfSpeech":  "verb",
-        "level":  "C1",
-        "ipa":  "/ËˆmÉªtÉªÉ¡eÉªt/",
-        "definition":  "To make a harmful effect, risk or problem less severe.",
-        "sinhala":  "à¶¶à¶½à¶´à·‘à¶¸à¶šà·Š à·„à· à¶…à·€à¶¯à·à¶±à¶¸à¶šà·Š à¶…à·€à¶¸ à¶šà¶»à¶±à·€à·",
-        "example":  "Regular backups mitigate the risk of data loss.",
-        "collocations":  [
-                             "mitigate risks",
-                             "mitigate the impact",
-                             "mitigate potential damage"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "advanced",
-                     "risk-management"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-question-skills"
-                             ]
-    },
-    {
-        "id":  "word-resolve",
-        "word":  "resolve",
-        "partOfSpeech":  "verb",
-        "level":  "B2",
-        "ipa":  "/rÉªËˆzÉ’lv/",
-        "definition":  "To find a solution to a problem or disagreement.",
-        "sinhala":  "à·€à·’à·ƒà¶³à¶±à·€à·",
-        "example":  "The development team resolved the reported defect.",
-        "collocations":  [
-                             "resolve an issue",
-                             "resolve a conflict",
-                             "resolve a problem"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "problem-solving",
-                     "professional"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-question-skills"
-                             ]
-    },
-    {
-        "id":  "word-feasible",
-        "word":  "feasible",
-        "partOfSpeech":  "adjective",
-        "level":  "B2",
-        "ipa":  "/ËˆfiËzÉ™bÉ™l/",
-        "definition":  "Possible and practical to achieve with the available resources.",
-        "sinhala":  "à¶´à·Šâ€à¶»à·à¶ºà·à¶œà·’à¶šà·€ à¶šà·… à·„à·à¶šà·’",
-        "example":  "The team evaluated whether the proposed solution was feasible.",
-        "collocations":  [
-                             "feasible solution",
-                             "technically feasible",
-                             "financially feasible"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "academic",
-                     "planning"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-sentence-structure"
-                             ]
-    },
-    {
-        "id":  "word-reliable",
-        "word":  "reliable",
-        "partOfSpeech":  "adjective",
-        "level":  "B1",
-        "ipa":  "/rÉªËˆlaÉªÉ™bÉ™l/",
-        "definition":  "Able to be trusted to work correctly or provide accurate information.",
-        "sinhala":  "à·€à·’à·à·Šà·€à·à·ƒà¶¯à·à¶ºà¶š",
-        "example":  "The application must provide reliable results.",
-        "collocations":  [
-                             "reliable source",
-                             "reliable system",
-                             "highly reliable"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "academic",
-                     "quality"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-sentence-structure"
-                             ]
-    },
-    {
-        "id":  "word-consistent",
-        "word":  "consistent",
-        "partOfSpeech":  "adjective",
-        "level":  "B2",
-        "ipa":  "/kÉ™nËˆsÉªstÉ™nt/",
-        "definition":  "Always behaving or performing in a similar and dependable way.",
-        "sinhala":  "à·ƒà·Šà¶®à·à·€à¶» / à¶…à¶±à·”à¶šà·–à¶½",
-        "example":  "Consistent practice leads to gradual improvement.",
-        "collocations":  [
-                             "consistent results",
-                             "consistent performance",
-                             "remain consistent"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "academic",
-                     "quality"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-learning-habits"
-                             ]
-    },
-    {
-        "id":  "word-sufficient",
-        "word":  "sufficient",
-        "partOfSpeech":  "adjective",
-        "level":  "B2",
-        "ipa":  "/sÉ™ËˆfÉªÊƒÉ™nt/",
-        "definition":  "As much as is needed for a particular purpose.",
-        "sinhala":  "à¶´à·Šâ€à¶»à¶¸à·à¶«à·€à¶­à·Š",
-        "example":  "The report provides sufficient evidence to support the conclusion.",
-        "collocations":  [
-                             "sufficient evidence",
-                             "sufficient resources",
-                             "sufficient time"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "academic",
-                     "research"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-sentence-structure"
-                             ]
-    },
-    {
-        "id":  "word-comprehensive",
-        "word":  "comprehensive",
-        "partOfSpeech":  "adjective",
-        "level":  "B2",
-        "ipa":  "/ËŒkÉ’mprÉªËˆhensÉªv/",
-        "definition":  "Including all or nearly all relevant details or aspects.",
-        "sinhala":  "à·ƒà·€à·’à·ƒà·Šà¶­à¶»à·à¶­à·Šà¶¸à¶š à·„à· à¶´à·”à·…à·”à¶½à·Š",
-        "example":  "The team conducted a comprehensive review of the codebase.",
-        "collocations":  [
-                             "comprehensive analysis",
-                             "comprehensive review",
-                             "comprehensive guide"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "academic",
-                     "research"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-sentence-structure"
-                             ]
-    },
-    {
-        "id":  "word-relevant",
-        "word":  "relevant",
-        "partOfSpeech":  "adjective",
-        "level":  "B1",
-        "ipa":  "/ËˆrelÉ™vÉ™nt/",
-        "definition":  "Closely connected with the subject or matter being considered.",
-        "sinhala":  "à¶…à¶¯à·à·…",
-        "example":  "Include only relevant information in the report.",
-        "collocations":  [
-                             "relevant information",
-                             "relevant experience",
-                             "highly relevant"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "academic",
-                     "communication"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-sentence-structure"
-                             ]
-    },
-    {
-        "id":  "word-accurate",
-        "word":  "accurate",
-        "partOfSpeech":  "adjective",
-        "level":  "B1",
-        "ipa":  "/ËˆÃ¦kjÉ™rÉ™t/",
-        "definition":  "Correct and free from mistakes.",
-        "sinhala":  "à¶±à·’à·€à·à¶»à¶¯à·’",
-        "example":  "Accurate documentation helps prevent misunderstandings.",
-        "collocations":  [
-                             "accurate information",
-                             "accurate measurement",
-                             "highly accurate"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "academic",
-                     "quality"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-sentence-structure"
-                             ]
-    },
-    {
-        "id":  "word-objective",
-        "word":  "objective",
-        "partOfSpeech":  "adjective",
-        "level":  "B2",
-        "ipa":  "/É™bËˆdÊ’ektÉªv/",
-        "definition":  "Based on facts rather than personal feelings or opinions.",
-        "sinhala":  "à·€à·›à·‚à¶ºà·’à¶š / à¶´à¶šà·Šà·‚à¶œà·Šâ€à¶»à·à·„à·“ à¶±à·œà·€à¶±",
-        "example":  "The researcher used objective criteria to evaluate the results.",
-        "collocations":  [
-                             "objective assessment",
-                             "objective evidence",
-                             "remain objective"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "academic",
-                     "research"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-sentence-structure"
-                             ]
-    },
-    {
-        "id":  "word-empirical",
-        "word":  "empirical",
-        "partOfSpeech":  "adjective",
-        "level":  "C1",
-        "ipa":  "/ÉªmËˆpÉªrÉªkÉ™l/",
-        "definition":  "Based on observation, experience or collected data rather than theory alone.",
-        "sinhala":  "à¶±à·’à¶»à·“à¶šà·Šà·‚à¶« à·„à· à¶…à¶­à·Šà¶¯à·à¶šà·“à¶¸à·Š à¶¸à¶­ à¶´à¶¯à¶±à¶¸à·Š à·€à·–",
-        "example":  "The researchers collected empirical evidence through experiments.",
-        "collocations":  [
-                             "empirical evidence",
-                             "empirical research",
-                             "empirical data"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "advanced",
-                     "research"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-sentence-structure"
-                             ]
-    },
-    {
-        "id":  "word-perspective",
-        "word":  "perspective",
-        "partOfSpeech":  "noun",
-        "level":  "B2",
-        "ipa":  "/pÉ™ËˆspektÉªv/",
-        "definition":  "A particular way of thinking about or understanding something.",
-        "sinhala":  "à¶¯à·˜à·‚à·Šà¶§à·’à¶šà·à¶«à¶º",
-        "example":  "The discussion introduced a different perspective on education.",
-        "collocations":  [
-                             "different perspective",
-                             "from my perspective",
-                             "broader perspective"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "academic",
-                     "communication"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-sentence-structure"
-                             ]
-    },
-    {
-        "id":  "word-acknowledge",
-        "word":  "acknowledge",
-        "partOfSpeech":  "verb",
-        "level":  "B2",
-        "ipa":  "/É™kËˆnÉ’lÉªdÊ’/",
-        "definition":  "To accept or recognise that something is true or exists.",
-        "sinhala":  "à¶´à·’à·…à·’à¶œà¶±à·Šà¶±à·€à·",
-        "example":  "The report acknowledges the limitations of the study.",
-        "collocations":  [
-                             "acknowledge a mistake",
-                             "acknowledge limitations",
-                             "acknowledge the importance"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "academic",
-                     "communication"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-sentence-structure"
-                             ]
-    },
-    {
-        "id":  "word-interpret",
-        "word":  "interpret",
-        "partOfSpeech":  "verb",
-        "level":  "B2",
-        "ipa":  "/ÉªnËˆtÉœËprÉªt/",
-        "definition":  "To explain the meaning of information or understand it in a particular way.",
-        "sinhala":  "à¶…à¶»à·Šà¶®à¶šà¶®à¶±à¶º à¶šà¶»à¶±à·€à·",
-        "example":  "Researchers must interpret the results carefully.",
-        "collocations":  [
-                             "interpret data",
-                             "interpret results",
-                             "interpret information"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "academic",
-                     "research"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-trends"
-                             ]
-    },
-    {
-        "id":  "word-evaluate",
-        "word":  "evaluate",
-        "partOfSpeech":  "verb",
-        "level":  "B2",
-        "ipa":  "/ÉªËˆvÃ¦ljueÉªt/",
-        "definition":  "To assess the quality, value or effectiveness of something.",
-        "sinhala":  "à¶‡à¶œà¶ºà·“à¶¸à¶§ à¶½à¶šà·Š à¶šà¶»à¶±à·€à·",
-        "example":  "The team evaluated the performance of the new system.",
-        "collocations":  [
-                             "evaluate performance",
-                             "evaluate effectiveness",
-                             "evaluate alternatives"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "academic",
-                     "assessment"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-sentence-structure"
-                             ]
-    },
-    {
-        "id":  "word-assess",
-        "word":  "assess",
-        "partOfSpeech":  "verb",
-        "level":  "B2",
-        "ipa":  "/É™Ëˆses/",
-        "definition":  "To judge or estimate the nature, importance or quality of something.",
-        "sinhala":  "à¶­à¶šà·Šà·ƒà·šà¶»à·” à¶šà¶»à¶±à·€à·",
-        "example":  "The lecturer assessed the students\u0027 project presentations.",
-        "collocations":  [
-                             "assess performance",
-                             "assess risk",
-                             "assess the impact"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "academic",
-                     "assessment"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-sentence-structure"
-                             ]
-    },
-    {
-        "id":  "word-analyse",
-        "word":  "analyse",
-        "partOfSpeech":  "verb",
-        "level":  "B2",
-        "ipa":  "/ËˆÃ¦nÉ™laÉªz/",
-        "definition":  "To examine something carefully to understand its components or meaning.",
-        "sinhala":  "à·€à·’à·à·Šà¶½à·šà·‚à¶«à¶º à¶šà¶»à¶±à·€à·",
-        "example":  "We analysed the survey responses to identify common patterns.",
-        "collocations":  [
-                             "analyse data",
-                             "analyse results",
-                             "analyse a problem"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "academic",
-                     "research"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-trends"
-                             ]
-    },
-    {
-        "id":  "word-exceed",
-        "word":  "exceed",
-        "partOfSpeech":  "verb",
-        "level":  "B2",
-        "ipa":  "/ÉªkËˆsiËd/",
-        "definition":  "To be greater than a particular number, amount or expectation.",
-        "sinhala":  "à¶‰à¶šà·Šà¶¸à·€à· à¶ºà¶±à·€à·",
-        "example":  "The final cost exceeded the original budget.",
-        "collocations":  [
-                             "exceed expectations",
-                             "exceed the limit",
-                             "exceed the budget"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "data",
-                     "professional"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-trends"
-                             ]
-    },
-    {
-        "id":  "word-adapt",
-        "word":  "adapt",
-        "partOfSpeech":  "verb",
-        "level":  "B2",
-        "ipa":  "/É™ËˆdÃ¦pt/",
-        "definition":  "To change in order to suit new conditions or circumstances.",
-        "sinhala":  "à¶…à¶±à·”à·€à¶»à·Šà¶­à¶±à¶º à·€à·™à¶±à·€à· / à·„à·à¶©à¶œà·à·ƒà·™à¶±à·€à·",
-        "example":  "Developers must adapt to changing technologies.",
-        "collocations":  [
-                             "adapt to change",
-                             "adapt a method",
-                             "quickly adapt"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "professional",
-                     "learning"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-learning-habits"
-                             ]
-    },
-    {
-        "id":  "word-persistent",
-        "word":  "persistent",
-        "partOfSpeech":  "adjective",
-        "level":  "B2",
-        "ipa":  "/pÉ™ËˆsÉªstÉ™nt/",
-        "definition":  "Continuing to try despite difficulties or repeated failures.",
-        "sinhala":  "à¶±à·œà¶´à·ƒà·”à¶¶à¶§ / à¶…à¶›à¶«à·Šà¶©à·€ à¶‹à¶­à·Šà·ƒà·à·„ à¶šà¶»à¶±",
-        "example":  "Persistent effort helps students overcome difficult challenges.",
-        "collocations":  [
-                             "persistent effort",
-                             "persistent problem",
-                             "persistent behaviour"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "personality",
-                     "learning"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-learning-habits"
-                             ]
-    },
-    {
-        "id":  "word-resilient",
-        "word":  "resilient",
-        "partOfSpeech":  "adjective",
-        "level":  "C1",
-        "ipa":  "/rÉªËˆzÉªliÉ™nt/",
-        "definition":  "Able to recover quickly from difficulties or setbacks.",
-        "sinhala":  "à¶¯à·”à·‚à·Šà¶šà¶»à¶­à· à¶¸à·à¶¯ à¶±à·à·€à¶­ à¶±à·à¶œà·“ à·ƒà·’à¶§à·’à¶º à·„à·à¶šà·’",
-        "example":  "Resilient developers learn from failures and try again.",
-        "collocations":  [
-                             "resilient mindset",
-                             "highly resilient",
-                             "resilient system"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "personality",
-                     "professional"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-learning-habits"
-                             ]
-    },
-    {
-        "id":  "word-diligent",
-        "word":  "diligent",
-        "partOfSpeech":  "adjective",
-        "level":  "B2",
-        "ipa":  "/ËˆdÉªlÉªdÊ’É™nt/",
-        "definition":  "Showing careful and persistent effort when doing a task.",
-        "sinhala":  "à¶‹à¶±à¶±à·Šà¶¯à·”à·€à·™à¶±à·Š à·„à· à¶šà·à¶´à·€à·“à¶¸à·™à¶±à·Š à·€à·à¶© à¶šà¶»à¶±",
-        "example":  "A diligent student reviews lessons regularly.",
-        "collocations":  [
-                             "diligent worker",
-                             "diligent effort",
-                             "diligent approach"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "personality",
-                     "study"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-learning-habits"
-                             ]
-    },
-    {
-        "id":  "word-accountable",
-        "word":  "accountable",
-        "partOfSpeech":  "adjective",
-        "level":  "B2",
-        "ipa":  "/É™ËˆkaÊŠntÉ™bÉ™l/",
-        "definition":  "Responsible for actions, decisions and their consequences.",
-        "sinhala":  "à·€à¶œà¶šà·“à¶¸ à¶·à·à¶»à¶œà¶­ à¶ºà·”à¶­à·”",
-        "example":  "Every team member is accountable for their assigned tasks.",
-        "collocations":  [
-                             "held accountable",
-                             "accountable for results",
-                             "remain accountable"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "professional",
-                     "teamwork"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-learning-habits"
-                             ]
-    },
-    {
-        "id":  "word-proactive",
-        "word":  "proactive",
-        "partOfSpeech":  "adjective",
-        "level":  "B2",
-        "ipa":  "/ËŒprÉ™ÊŠËˆÃ¦ktÉªv/",
-        "definition":  "Taking action in advance to deal with situations or prevent problems.",
-        "sinhala":  "à¶šà¶½à·Šà¶­à·’à¶ºà· à¶šà·Šâ€à¶»à·’à¶ºà·à·à·“à¶½à·“à·€ à¶šà¶§à¶ºà·”à¶­à·” à¶šà¶»à¶±",
-        "example":  "A proactive developer identifies risks before deployment.",
-        "collocations":  [
-                             "proactive approach",
-                             "proactive measures",
-                             "proactive communication"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "professional",
-                     "problem-solving"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-learning-habits"
-                             ]
-    },
-    {
-        "id":  "word-meticulous",
-        "word":  "meticulous",
-        "partOfSpeech":  "adjective",
-        "level":  "C1",
-        "ipa":  "/mÉ™ËˆtÉªkjÉ™lÉ™s/",
-        "definition":  "Extremely careful about details and accuracy.",
-        "sinhala":  "à¶‰à¶­à· à·ƒà·–à¶šà·Šà·‚à¶¸ à·„à· à·ƒà·à¶½à¶šà·’à¶½à·’à¶¸à¶­à·Š",
-        "example":  "The engineer performed a meticulous review of the code.",
-        "collocations":  [
-                             "meticulous attention",
-                             "meticulous planning",
-                             "meticulous examination"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "personality",
-                     "professional"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-learning-habits"
-                             ]
-    },
-    {
-        "id":  "word-collaborate",
-        "word":  "collaborate",
-        "partOfSpeech":  "verb",
-        "level":  "B2",
-        "ipa":  "/kÉ™ËˆlÃ¦bÉ™reÉªt/",
-        "definition":  "To work together with others to achieve a shared goal.",
-        "sinhala":  "à·ƒà·„à¶ºà·à¶œà¶ºà·™à¶±à·Š à¶šà¶§à¶ºà·”à¶­à·” à¶šà¶»à¶±à·€à·",
-        "example":  "Developers collaborate to deliver high-quality software.",
-        "collocations":  [
-                             "collaborate with colleagues",
-                             "collaborate effectively",
-                             "collaborate on a project"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "professional",
-                     "teamwork"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-learning-habits"
-                             ]
-    },
-    {
-        "id":  "word-negotiate",
-        "word":  "negotiate",
-        "partOfSpeech":  "verb",
-        "level":  "B2",
-        "ipa":  "/nÉªËˆÉ¡É™ÊŠÊƒieÉªt/",
-        "definition":  "To discuss something with others to reach an agreement.",
-        "sinhala":  "à·ƒà·à¶šà¶ à·Šà¶¡à· à¶šà¶» à¶‘à¶šà¶Ÿà¶­à·à·€à¶šà¶§ à¶´à·à¶¸à·’à¶«à·™à¶±à·€à·",
-        "example":  "The team negotiated a realistic project deadline.",
-        "collocations":  [
-                             "negotiate an agreement",
-                             "negotiate terms",
-                             "negotiate a deadline"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "communication",
-                     "professional"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-learning-habits"
-                             ]
-    },
-    {
-        "id":  "word-articulate",
-        "word":  "articulate",
-        "partOfSpeech":  "verb",
-        "level":  "C1",
-        "ipa":  "/É‘ËËˆtÉªkjuleÉªt/",
-        "definition":  "To express an idea or opinion clearly and effectively.",
-        "sinhala":  "à¶…à¶¯à·„à·ƒà¶šà·Š à¶´à·à·„à·à¶¯à·’à¶½à·’à·€ à¶´à·Šâ€à¶»à¶šà·à· à¶šà¶»à¶±à·€à·",
-        "example":  "She articulated her concerns during the meeting.",
-        "collocations":  [
-                             "articulate an idea",
-                             "clearly articulate",
-                             "articulate a vision"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "communication",
-                     "advanced"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-sentence-structure"
-                             ]
-    },
-    {
-        "id":  "word-persuasive",
-        "word":  "persuasive",
-        "partOfSpeech":  "adjective",
-        "level":  "B2",
-        "ipa":  "/pÉ™ËˆsweÉªsÉªv/",
-        "definition":  "Able to convince someone to accept an idea or take action.",
-        "sinhala":  "à¶’à¶­à·Šà¶­à·” à¶œà·à¶±à·Šà·€à·’à¶º à·„à·à¶šà·’",
-        "example":  "The researcher presented a persuasive argument supported by evidence.",
-        "collocations":  [
-                             "persuasive argument",
-                             "persuasive evidence",
-                             "highly persuasive"
-                         ],
-        "wordFamilyIds":  [
-
-                          ],
-        "tags":  [
-                     "academic",
-                     "argument"
-                 ],
-        "relatedLessonIds":  [
-                                 "lesson-sentence-structure"
-                             ]
-    }
+[
+  {
+    "id": "word-learn",
+    "word": "learn",
+    "partOfSpeech": "verb",
+    "level": "A2",
+    "ipa": "/lɜːn/",
+    "definition": "To gain knowledge or a skill by studying or practising.",
+    "sinhala": "ඉගෙන ගන්නවා",
+    "example": "I learn five useful English words every day.",
+    "collocations": [
+      "learn English",
+      "learn how to",
+      "learn from mistakes"
+    ],
+    "wordFamilyIds": [
+      "word-learning"
+    ],
+    "tags": [
+      "foundation",
+      "study"
+    ],
+    "relatedLessonIds": [
+      "lesson-learning-habits"
+    ]
+  },
+  {
+    "id": "word-learning",
+    "word": "learning",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "ipa": "/ˈlɜːnɪŋ/",
+    "definition": "The activity or process of gaining knowledge or a skill.",
+    "sinhala": "ඉගෙනීම",
+    "example": "Regular review makes learning easier.",
+    "collocations": [
+      "active learning",
+      "learning process",
+      "online learning"
+    ],
+    "wordFamilyIds": [
+      "word-learn"
+    ],
+    "tags": [
+      "foundation",
+      "study"
+    ],
+    "relatedLessonIds": [
+      "lesson-learning-habits"
+    ]
+  },
+  {
+    "id": "word-practise",
+    "word": "practise",
+    "partOfSpeech": "verb",
+    "level": "A2",
+    "ipa": "/ˈpræktɪs/",
+    "definition": "To do an activity regularly in order to improve.",
+    "sinhala": "පුහුණු වෙනවා",
+    "example": "She practises speaking English after class.",
+    "collocations": [
+      "practise speaking",
+      "practise regularly",
+      "practise a skill"
+    ],
+    "wordFamilyIds": [
+      "word-practice"
+    ],
+    "tags": [
+      "foundation",
+      "study"
+    ],
+    "relatedLessonIds": [
+      "lesson-learning-habits"
+    ]
+  },
+  {
+    "id": "word-practice",
+    "word": "practice",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "ipa": "/ˈpræktɪs/",
+    "definition": "Regular activity that helps you improve a skill.",
+    "sinhala": "පුහුණුව",
+    "example": "Daily practice builds confidence.",
+    "collocations": [
+      "daily practice",
+      "speaking practice",
+      "practice test"
+    ],
+    "wordFamilyIds": [
+      "word-practise"
+    ],
+    "tags": [
+      "foundation",
+      "study"
+    ],
+    "relatedLessonIds": [
+      "lesson-learning-habits"
+    ]
+  },
+  {
+    "id": "word-answer",
+    "word": "answer",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "ipa": "/ˈɑːnsə(r)/",
+    "definition": "Something said or written in reply to a question.",
+    "sinhala": "පිළිතුර",
+    "example": "Read the question carefully before choosing your answer.",
+    "collocations": [
+      "correct answer",
+      "short answer",
+      "answer a question"
+    ],
+    "wordFamilyIds": [
+      "word-answer-verb"
+    ],
+    "tags": [
+      "foundation",
+      "exam"
+    ],
+    "relatedLessonIds": [
+      "lesson-question-skills"
+    ]
+  },
+  {
+    "id": "word-answer-verb",
+    "word": "answer",
+    "partOfSpeech": "verb",
+    "level": "A2",
+    "ipa": "/ˈɑːnsə(r)/",
+    "definition": "To say or write something in reply to a question.",
+    "sinhala": "පිළිතුරු දෙන්නවා",
+    "example": "Try to answer every question in the test.",
+    "collocations": [
+      "answer correctly",
+      "answer a question",
+      "answer briefly"
+    ],
+    "wordFamilyIds": [
+      "word-answer"
+    ],
+    "tags": [
+      "foundation",
+      "exam"
+    ],
+    "relatedLessonIds": [
+      "lesson-question-skills"
+    ]
+  },
+  {
+    "id": "word-question",
+    "word": "question",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "ipa": "/ˈkwestʃən/",
+    "definition": "A sentence or phrase used to ask for information.",
+    "sinhala": "ප්‍රශ්නය",
+    "example": "This question asks you to compare two charts.",
+    "collocations": [
+      "ask a question",
+      "answer a question",
+      "question type"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "foundation",
+      "exam"
+    ],
+    "relatedLessonIds": [
+      "lesson-question-skills"
+    ]
+  },
+  {
+    "id": "word-example",
+    "word": "example",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "ipa": "/ɪɡˈzɑːmpəl/",
+    "definition": "Something that shows what another thing is like.",
+    "sinhala": "උදාහරණය",
+    "example": "The teacher gave an example of a clear sentence.",
+    "collocations": [
+      "for example",
+      "give an example",
+      "clear example"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "foundation",
+      "study"
+    ],
+    "relatedLessonIds": [
+      "lesson-sentence-structure"
+    ]
+  },
+  {
+    "id": "word-describe",
+    "word": "describe",
+    "partOfSpeech": "verb",
+    "level": "A2",
+    "ipa": "/dɪˈskraɪb/",
+    "definition": "To say or write what someone or something is like.",
+    "sinhala": "විස්තර කරන්නවා",
+    "example": "Describe the main change in the chart.",
+    "collocations": [
+      "describe a chart",
+      "describe clearly",
+      "describe changes"
+    ],
+    "wordFamilyIds": [
+      "word-description"
+    ],
+    "tags": [
+      "foundation",
+      "writing-task-1"
+    ],
+    "relatedLessonIds": [
+      "lesson-task-1-intro"
+    ]
+  },
+  {
+    "id": "word-description",
+    "word": "description",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "ipa": "/dɪˈskrɪpʃən/",
+    "definition": "A spoken or written account of what someone or something is like.",
+    "sinhala": "විස්තරය",
+    "example": "Her description of the graph was accurate.",
+    "collocations": [
+      "clear description",
+      "brief description",
+      "written description"
+    ],
+    "wordFamilyIds": [
+      "word-describe"
+    ],
+    "tags": [
+      "foundation",
+      "writing-task-1"
+    ],
+    "relatedLessonIds": [
+      "lesson-task-1-intro"
+    ]
+  },
+  {
+    "id": "word-compare",
+    "word": "compare",
+    "partOfSpeech": "verb",
+    "level": "A2",
+    "ipa": "/kəmˈpeə(r)/",
+    "definition": "To examine two or more things to see how they are similar or different.",
+    "sinhala": "සසඳන්නවා",
+    "example": "Compare the figures for men and women.",
+    "collocations": [
+      "compare with",
+      "compare figures",
+      "compare two things"
+    ],
+    "wordFamilyIds": [
+      "word-comparison"
+    ],
+    "tags": [
+      "foundation",
+      "comparison"
+    ],
+    "relatedLessonIds": [
+      "lesson-comparison"
+    ]
+  },
+  {
+    "id": "word-comparison",
+    "word": "comparison",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "ipa": "/kəmˈpærɪsən/",
+    "definition": "The act of examining things to find similarities and differences.",
+    "sinhala": "සැසඳීම",
+    "example": "The comparison shows a clear difference between the groups.",
+    "collocations": [
+      "make a comparison",
+      "by comparison",
+      "comparison between"
+    ],
+    "wordFamilyIds": [
+      "word-compare"
+    ],
+    "tags": [
+      "foundation",
+      "comparison"
+    ],
+    "relatedLessonIds": [
+      "lesson-comparison"
+    ]
+  },
+  {
+    "id": "word-change",
+    "word": "change",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "ipa": "/tʃeɪndʒ/",
+    "definition": "Something becoming different.",
+    "sinhala": "වෙනස",
+    "example": "The graph shows a change in travel habits.",
+    "collocations": [
+      "major change",
+      "change in",
+      "show a change"
+    ],
+    "wordFamilyIds": [
+      "word-change-verb"
+    ],
+    "tags": [
+      "foundation",
+      "trends"
+    ],
+    "relatedLessonIds": [
+      "lesson-trends"
+    ]
+  },
+  {
+    "id": "word-change-verb",
+    "word": "change",
+    "partOfSpeech": "verb",
+    "level": "A2",
+    "ipa": "/tʃeɪndʒ/",
+    "definition": "To become different or to make something different.",
+    "sinhala": "වෙනස් වෙනවා",
+    "example": "Travel patterns changed after the new road opened.",
+    "collocations": [
+      "change over time",
+      "change quickly",
+      "change from"
+    ],
+    "wordFamilyIds": [
+      "word-change"
+    ],
+    "tags": [
+      "foundation",
+      "trends"
+    ],
+    "relatedLessonIds": [
+      "lesson-trends"
+    ]
+  },
+  {
+    "id": "word-number",
+    "word": "number",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "ipa": "/ˈnʌmbə(r)/",
+    "definition": "A quantity or amount expressed with figures.",
+    "sinhala": "සංඛ්‍යාව",
+    "example": "The number of visitors increased in July.",
+    "collocations": [
+      "number of",
+      "large number",
+      "total number"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "foundation",
+      "data"
+    ],
+    "relatedLessonIds": [
+      "lesson-trends"
+    ]
+  },
+  {
+    "id": "word-chart",
+    "word": "chart",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "ipa": "/tʃɑːt/",
+    "definition": "A diagram that shows information or data.",
+    "sinhala": "ප්‍රස්ථාරය",
+    "example": "The bar chart compares three age groups.",
+    "collocations": [
+      "bar chart",
+      "line chart",
+      "chart shows"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "foundation",
+      "data",
+      "writing-task-1"
+    ],
+    "relatedLessonIds": [
+      "lesson-task-1-intro"
+    ]
+  },
+  {
+    "id": "word-table",
+    "word": "table",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "ipa": "/ˈteɪbəl/",
+    "definition": "A set of facts or figures arranged in rows and columns.",
+    "sinhala": "වගුව",
+    "example": "The table gives information about household income.",
+    "collocations": [
+      "table shows",
+      "data table",
+      "in the table"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "foundation",
+      "data",
+      "writing-task-1"
+    ],
+    "relatedLessonIds": [
+      "lesson-task-1-intro"
+    ]
+  },
+  {
+    "id": "word-show",
+    "word": "show",
+    "partOfSpeech": "verb",
+    "level": "A2",
+    "ipa": "/ʃəʊ/",
+    "definition": "To make something clear or possible to see.",
+    "sinhala": "පෙන්වන්නවා",
+    "example": "The figures show a steady rise in sales.",
+    "collocations": [
+      "show a change",
+      "show clearly",
+      "figures show"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "foundation",
+      "writing-task-1"
+    ],
+    "relatedLessonIds": [
+      "lesson-task-1-intro"
+    ]
+  },
+  {
+    "id": "word-improve",
+    "word": "improve",
+    "partOfSpeech": "verb",
+    "level": "A2",
+    "ipa": "/ɪmˈpruːv/",
+    "definition": "To become better or to make something better.",
+    "sinhala": "වැඩිදියුණු වෙනවා",
+    "example": "Reading every day can improve your vocabulary.",
+    "collocations": [
+      "improve skills",
+      "improve greatly",
+      "improve your English"
+    ],
+    "wordFamilyIds": [
+      "word-improvement"
+    ],
+    "tags": [
+      "foundation",
+      "study"
+    ],
+    "relatedLessonIds": [
+      "lesson-learning-habits"
+    ]
+  },
+  {
+    "id": "word-improvement",
+    "word": "improvement",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "ipa": "/ɪmˈpruːvmənt/",
+    "definition": "A change that makes something better.",
+    "sinhala": "වැඩිදියුණු වීම",
+    "example": "There was a clear improvement in her speaking.",
+    "collocations": [
+      "show improvement",
+      "major improvement",
+      "room for improvement"
+    ],
+    "wordFamilyIds": [
+      "word-improve"
+    ],
+    "tags": [
+      "foundation",
+      "study"
+    ],
+    "relatedLessonIds": [
+      "lesson-learning-habits"
+    ]
+  },
+  {
+    "id": "word-important",
+    "word": "important",
+    "partOfSpeech": "adjective",
+    "level": "A2",
+    "ipa": "/ɪmˈpɔːtənt/",
+    "definition": "Having great value or influence.",
+    "sinhala": "වැදගත්",
+    "example": "It is important to understand the question first.",
+    "collocations": [
+      "very important",
+      "important role",
+      "important to"
+    ],
+    "wordFamilyIds": [
+      "word-importance"
+    ],
+    "tags": [
+      "foundation",
+      "academic"
+    ],
+    "relatedLessonIds": [
+      "lesson-sentence-structure"
+    ]
+  },
+  {
+    "id": "word-importance",
+    "word": "importance",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "ipa": "/ɪmˈpɔːtəns/",
+    "definition": "The quality of being valuable or having a strong effect.",
+    "sinhala": "වැදගත්කම",
+    "example": "The lesson explains the importance of regular practice.",
+    "collocations": [
+      "importance of",
+      "great importance",
+      "of importance"
+    ],
+    "wordFamilyIds": [
+      "word-important"
+    ],
+    "tags": [
+      "foundation",
+      "academic"
+    ],
+    "relatedLessonIds": [
+      "lesson-sentence-structure"
+    ]
+  },
+  {
+    "id": "word-different",
+    "word": "different",
+    "partOfSpeech": "adjective",
+    "level": "A2",
+    "ipa": "/ˈdɪfrənt/",
+    "definition": "Not the same as another person or thing.",
+    "sinhala": "වෙනස්",
+    "example": "The two cities have different transport systems.",
+    "collocations": [
+      "different from",
+      "very different",
+      "key difference"
+    ],
+    "wordFamilyIds": [
+      "word-difference"
+    ],
+    "tags": [
+      "foundation",
+      "comparison"
+    ],
+    "relatedLessonIds": [
+      "lesson-comparison"
+    ]
+  },
+  {
+    "id": "word-difference",
+    "word": "difference",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "ipa": "/ˈdɪfrəns/",
+    "definition": "A way in which people or things are not the same.",
+    "sinhala": "වෙනස",
+    "example": "There is a large difference between the two results.",
+    "collocations": [
+      "main difference",
+      "difference between",
+      "make a difference"
+    ],
+    "wordFamilyIds": [
+      "word-different"
+    ],
+    "tags": [
+      "foundation",
+      "comparison"
+    ],
+    "relatedLessonIds": [
+      "lesson-comparison"
+    ]
+  },
+  {
+    "id": "word-furthermore",
+    "word": "furthermore",
+    "partOfSpeech": "adverb",
+    "level": "B2",
+    "ipa": "/ˌfɜːðəˈmɔː(r)/",
+    "definition": "Used to introduce additional information that supports a previous point.",
+    "sinhala": "තවද",
+    "example": "Furthermore, regular practice improves communication skills.",
+    "collocations": [
+      "furthermore, it shows",
+      "furthermore, the study",
+      "furthermore, we can"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "academic",
+      "linking-words"
+    ],
+    "relatedLessonIds": [
+      "lesson-sentence-structure"
+    ]
+  },
+  {
+    "id": "word-moreover",
+    "word": "moreover",
+    "partOfSpeech": "adverb",
+    "level": "B2",
+    "ipa": "/mɔːrˈəʊvə(r)/",
+    "definition": "Used to add information that strengthens a previous statement.",
+    "sinhala": "එපමණක් නොව",
+    "example": "Moreover, the proposed solution is affordable.",
+    "collocations": [
+      "moreover, it provides",
+      "moreover, the results",
+      "moreover, this approach"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "academic",
+      "linking-words"
+    ],
+    "relatedLessonIds": [
+      "lesson-sentence-structure"
+    ]
+  },
+  {
+    "id": "word-nevertheless",
+    "word": "nevertheless",
+    "partOfSpeech": "adverb",
+    "level": "B2",
+    "ipa": "/ˌnevəðəˈles/",
+    "definition": "Despite what has just been mentioned; even so.",
+    "sinhala": "එසේ වුවද",
+    "example": "The task was challenging; nevertheless, we completed it.",
+    "collocations": [
+      "nevertheless, it remains",
+      "nevertheless, the results",
+      "but nevertheless"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "academic",
+      "contrast",
+      "linking-words"
+    ],
+    "relatedLessonIds": [
+      "lesson-sentence-structure"
+    ]
+  },
+  {
+    "id": "word-subsequently",
+    "word": "subsequently",
+    "partOfSpeech": "adverb",
+    "level": "B2",
+    "ipa": "/ˈsʌbsɪkwəntli/",
+    "definition": "After a particular event or point in time.",
+    "sinhala": "ඉන් අනතුරුව",
+    "example": "The defect was identified and subsequently corrected.",
+    "collocations": [
+      "subsequently discovered",
+      "subsequently updated",
+      "subsequently developed"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "academic",
+      "sequence"
+    ],
+    "relatedLessonIds": [
+      "lesson-sentence-structure"
+    ]
+  },
+  {
+    "id": "word-initially",
+    "word": "initially",
+    "partOfSpeech": "adverb",
+    "level": "B1",
+    "ipa": "/ɪˈnɪʃəli/",
+    "definition": "At the beginning of a process or situation.",
+    "sinhala": "මුලදී",
+    "example": "Initially, the application supported only one user role.",
+    "collocations": [
+      "initially planned",
+      "initially developed",
+      "initially intended"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "academic",
+      "sequence"
+    ],
+    "relatedLessonIds": [
+      "lesson-sentence-structure"
+    ]
+  },
+  {
+    "id": "word-ultimately",
+    "word": "ultimately",
+    "partOfSpeech": "adverb",
+    "level": "B2",
+    "ipa": "/ˈʌltɪmətli/",
+    "definition": "Finally, after considering all relevant facts or events.",
+    "sinhala": "අවසානයේදී",
+    "example": "Ultimately, the quality of the software depends on its design.",
+    "collocations": [
+      "ultimately responsible",
+      "ultimately depends on",
+      "ultimately leads to"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "academic",
+      "conclusion"
+    ],
+    "relatedLessonIds": [
+      "lesson-sentence-structure"
+    ]
+  },
+  {
+    "id": "word-clarify",
+    "word": "clarify",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "ipa": "/ˈklærɪfaɪ/",
+    "definition": "To make something easier to understand by explaining it more clearly.",
+    "sinhala": "පැහැදිලි කරනවා",
+    "example": "The developer asked the client to clarify the requirements.",
+    "collocations": [
+      "clarify a requirement",
+      "clarify the meaning",
+      "clarify a point"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "communication",
+      "requirements"
+    ],
+    "relatedLessonIds": [
+      "lesson-sentence-structure"
+    ]
+  },
+  {
+    "id": "word-demonstrate",
+    "word": "demonstrate",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "ipa": "/ˈdemənstreɪt/",
+    "definition": "To show clearly that something exists or how something works.",
+    "sinhala": "පෙන්වා දෙනවා",
+    "example": "The experiment demonstrates the effectiveness of the method.",
+    "collocations": [
+      "demonstrate effectiveness",
+      "demonstrate a skill",
+      "clearly demonstrate"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "academic",
+      "explanation"
+    ],
+    "relatedLessonIds": [
+      "lesson-sentence-structure"
+    ]
+  },
+  {
+    "id": "word-identify",
+    "word": "identify",
+    "partOfSpeech": "verb",
+    "level": "B1",
+    "ipa": "/aɪˈdentɪfaɪ/",
+    "definition": "To recognise or establish what someone or something is.",
+    "sinhala": "හඳුනා ගන්නවා",
+    "example": "The analysis helped us identify the root cause of the error.",
+    "collocations": [
+      "identify a problem",
+      "identify a pattern",
+      "identify the cause"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "problem-solving",
+      "academic"
+    ],
+    "relatedLessonIds": [
+      "lesson-question-skills"
+    ]
+  },
+  {
+    "id": "word-determine",
+    "word": "determine",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "ipa": "/dɪˈtɜːmɪn/",
+    "definition": "To discover or establish something by investigation or reasoning.",
+    "sinhala": "නිශ්චය කරනවා",
+    "example": "Further testing will determine whether the fix is reliable.",
+    "collocations": [
+      "determine the cause",
+      "determine the outcome",
+      "determine whether"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "academic",
+      "problem-solving"
+    ],
+    "relatedLessonIds": [
+      "lesson-question-skills"
+    ]
+  },
+  {
+    "id": "word-justify",
+    "word": "justify",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "ipa": "/ˈdʒʌstɪfaɪ/",
+    "definition": "To provide reasons or evidence showing that a decision or action is reasonable.",
+    "sinhala": "සාධාරණීකරණය කරනවා",
+    "example": "The researcher justified the choice of methodology.",
+    "collocations": [
+      "justify a decision",
+      "justify an approach",
+      "justify a claim"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "academic",
+      "argument"
+    ],
+    "relatedLessonIds": [
+      "lesson-sentence-structure"
+    ]
+  },
+  {
+    "id": "word-establish",
+    "word": "establish",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "ipa": "/ɪˈstæblɪʃ/",
+    "definition": "To create something or demonstrate that something is true.",
+    "sinhala": "පිහිටුවනවා / තහවුරු කරනවා",
+    "example": "The study established a relationship between the two variables.",
+    "collocations": [
+      "establish a relationship",
+      "establish a framework",
+      "establish a fact"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "academic",
+      "research"
+    ],
+    "relatedLessonIds": [
+      "lesson-sentence-structure"
+    ]
+  },
+  {
+    "id": "word-address",
+    "word": "address",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "ipa": "/əˈdres/",
+    "definition": "To take action to deal with a problem or issue.",
+    "sinhala": "ගැටලුවකට විසඳුම් ලබා දීමට කටයුතු කරනවා",
+    "example": "The proposed changes address several security concerns.",
+    "collocations": [
+      "address an issue",
+      "address a concern",
+      "address a problem"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "problem-solving",
+      "professional"
+    ],
+    "relatedLessonIds": [
+      "lesson-question-skills"
+    ]
+  },
+  {
+    "id": "word-facilitate",
+    "word": "facilitate",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "ipa": "/fəˈsɪlɪteɪt/",
+    "definition": "To make an activity or process easier.",
+    "sinhala": "පහසු කරනවා",
+    "example": "Clear documentation facilitates collaboration among developers.",
+    "collocations": [
+      "facilitate communication",
+      "facilitate learning",
+      "facilitate collaboration"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "academic",
+      "professional"
+    ],
+    "relatedLessonIds": [
+      "lesson-learning-habits"
+    ]
+  },
+  {
+    "id": "word-enhance",
+    "word": "enhance",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "ipa": "/ɪnˈhɑːns/",
+    "definition": "To improve the quality, value or effectiveness of something.",
+    "sinhala": "වැඩිදියුණු කරනවා",
+    "example": "Regular feedback can enhance the quality of a project.",
+    "collocations": [
+      "enhance performance",
+      "enhance quality",
+      "enhance security"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "professional",
+      "improvement"
+    ],
+    "relatedLessonIds": [
+      "lesson-learning-habits"
+    ]
+  },
+  {
+    "id": "word-mitigate",
+    "word": "mitigate",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/ˈmɪtɪɡeɪt/",
+    "definition": "To make a harmful effect, risk or problem less severe.",
+    "sinhala": "බලපෑමක් හෝ අවදානමක් අවම කරනවා",
+    "example": "Regular backups mitigate the risk of data loss.",
+    "collocations": [
+      "mitigate risks",
+      "mitigate the impact",
+      "mitigate potential damage"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "advanced",
+      "risk-management"
+    ],
+    "relatedLessonIds": [
+      "lesson-question-skills"
+    ]
+  },
+  {
+    "id": "word-resolve",
+    "word": "resolve",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "ipa": "/rɪˈzɒlv/",
+    "definition": "To find a solution to a problem or disagreement.",
+    "sinhala": "විසඳනවා",
+    "example": "The development team resolved the reported defect.",
+    "collocations": [
+      "resolve an issue",
+      "resolve a conflict",
+      "resolve a problem"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "problem-solving",
+      "professional"
+    ],
+    "relatedLessonIds": [
+      "lesson-question-skills"
+    ]
+  },
+  {
+    "id": "word-feasible",
+    "word": "feasible",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "ipa": "/ˈfiːzəbəl/",
+    "definition": "Possible and practical to achieve with the available resources.",
+    "sinhala": "ප්‍රායෝගිකව කළ හැකි",
+    "example": "The team evaluated whether the proposed solution was feasible.",
+    "collocations": [
+      "feasible solution",
+      "technically feasible",
+      "financially feasible"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "academic",
+      "planning"
+    ],
+    "relatedLessonIds": [
+      "lesson-sentence-structure"
+    ]
+  },
+  {
+    "id": "word-reliable",
+    "word": "reliable",
+    "partOfSpeech": "adjective",
+    "level": "B1",
+    "ipa": "/rɪˈlaɪəbəl/",
+    "definition": "Able to be trusted to work correctly or provide accurate information.",
+    "sinhala": "විශ්වාසදායක",
+    "example": "The application must provide reliable results.",
+    "collocations": [
+      "reliable source",
+      "reliable system",
+      "highly reliable"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "academic",
+      "quality"
+    ],
+    "relatedLessonIds": [
+      "lesson-sentence-structure"
+    ]
+  },
+  {
+    "id": "word-consistent",
+    "word": "consistent",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "ipa": "/kənˈsɪstənt/",
+    "definition": "Always behaving or performing in a similar and dependable way.",
+    "sinhala": "ස්ථාවර / අනුකූල",
+    "example": "Consistent practice leads to gradual improvement.",
+    "collocations": [
+      "consistent results",
+      "consistent performance",
+      "remain consistent"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "academic",
+      "quality"
+    ],
+    "relatedLessonIds": [
+      "lesson-learning-habits"
+    ]
+  },
+  {
+    "id": "word-sufficient",
+    "word": "sufficient",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "ipa": "/səˈfɪʃənt/",
+    "definition": "As much as is needed for a particular purpose.",
+    "sinhala": "ප්‍රමාණවත්",
+    "example": "The report provides sufficient evidence to support the conclusion.",
+    "collocations": [
+      "sufficient evidence",
+      "sufficient resources",
+      "sufficient time"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "academic",
+      "research"
+    ],
+    "relatedLessonIds": [
+      "lesson-sentence-structure"
+    ]
+  },
+  {
+    "id": "word-comprehensive",
+    "word": "comprehensive",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "ipa": "/ˌkɒmprɪˈhensɪv/",
+    "definition": "Including all or nearly all relevant details or aspects.",
+    "sinhala": "සවිස්තරාත්මක හා පුළුල්",
+    "example": "The team conducted a comprehensive review of the codebase.",
+    "collocations": [
+      "comprehensive analysis",
+      "comprehensive review",
+      "comprehensive guide"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "academic",
+      "research"
+    ],
+    "relatedLessonIds": [
+      "lesson-sentence-structure"
+    ]
+  },
+  {
+    "id": "word-relevant",
+    "word": "relevant",
+    "partOfSpeech": "adjective",
+    "level": "B1",
+    "ipa": "/ˈreləvənt/",
+    "definition": "Closely connected with the subject or matter being considered.",
+    "sinhala": "අදාළ",
+    "example": "Include only relevant information in the report.",
+    "collocations": [
+      "relevant information",
+      "relevant experience",
+      "highly relevant"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "academic",
+      "communication"
+    ],
+    "relatedLessonIds": [
+      "lesson-sentence-structure"
+    ]
+  },
+  {
+    "id": "word-accurate",
+    "word": "accurate",
+    "partOfSpeech": "adjective",
+    "level": "B1",
+    "ipa": "/ˈækjərət/",
+    "definition": "Correct and free from mistakes.",
+    "sinhala": "නිවැරදි",
+    "example": "Accurate documentation helps prevent misunderstandings.",
+    "collocations": [
+      "accurate information",
+      "accurate measurement",
+      "highly accurate"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "academic",
+      "quality"
+    ],
+    "relatedLessonIds": [
+      "lesson-sentence-structure"
+    ]
+  },
+  {
+    "id": "word-objective",
+    "word": "objective",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "ipa": "/əbˈdʒektɪv/",
+    "definition": "Based on facts rather than personal feelings or opinions.",
+    "sinhala": "වෛෂයික / පක්ෂග්‍රාහී නොවන",
+    "example": "The researcher used objective criteria to evaluate the results.",
+    "collocations": [
+      "objective assessment",
+      "objective evidence",
+      "remain objective"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "academic",
+      "research"
+    ],
+    "relatedLessonIds": [
+      "lesson-sentence-structure"
+    ]
+  },
+  {
+    "id": "word-empirical",
+    "word": "empirical",
+    "partOfSpeech": "adjective",
+    "level": "C1",
+    "ipa": "/ɪmˈpɪrɪkəl/",
+    "definition": "Based on observation, experience or collected data rather than theory alone.",
+    "sinhala": "නිරීක්ෂණ හා අත්දැකීම් මත පදනම් වූ",
+    "example": "The researchers collected empirical evidence through experiments.",
+    "collocations": [
+      "empirical evidence",
+      "empirical research",
+      "empirical data"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "advanced",
+      "research"
+    ],
+    "relatedLessonIds": [
+      "lesson-sentence-structure"
+    ]
+  },
+  {
+    "id": "word-perspective",
+    "word": "perspective",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "ipa": "/pəˈspektɪv/",
+    "definition": "A particular way of thinking about or understanding something.",
+    "sinhala": "දෘෂ්ටිකෝණය",
+    "example": "The discussion introduced a different perspective on education.",
+    "collocations": [
+      "different perspective",
+      "from my perspective",
+      "broader perspective"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "academic",
+      "communication"
+    ],
+    "relatedLessonIds": [
+      "lesson-sentence-structure"
+    ]
+  },
+  {
+    "id": "word-acknowledge",
+    "word": "acknowledge",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "ipa": "/əkˈnɒlɪdʒ/",
+    "definition": "To accept or recognise that something is true or exists.",
+    "sinhala": "පිළිගන්නවා",
+    "example": "The report acknowledges the limitations of the study.",
+    "collocations": [
+      "acknowledge a mistake",
+      "acknowledge limitations",
+      "acknowledge the importance"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "academic",
+      "communication"
+    ],
+    "relatedLessonIds": [
+      "lesson-sentence-structure"
+    ]
+  },
+  {
+    "id": "word-interpret",
+    "word": "interpret",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "ipa": "/ɪnˈtɜːprɪt/",
+    "definition": "To explain the meaning of information or understand it in a particular way.",
+    "sinhala": "අර්ථකථනය කරනවා",
+    "example": "Researchers must interpret the results carefully.",
+    "collocations": [
+      "interpret data",
+      "interpret results",
+      "interpret information"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "academic",
+      "research"
+    ],
+    "relatedLessonIds": [
+      "lesson-trends"
+    ]
+  },
+  {
+    "id": "word-evaluate",
+    "word": "evaluate",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "ipa": "/ɪˈvæljueɪt/",
+    "definition": "To assess the quality, value or effectiveness of something.",
+    "sinhala": "ඇගයීමට ලක් කරනවා",
+    "example": "The team evaluated the performance of the new system.",
+    "collocations": [
+      "evaluate performance",
+      "evaluate effectiveness",
+      "evaluate alternatives"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "academic",
+      "assessment"
+    ],
+    "relatedLessonIds": [
+      "lesson-sentence-structure"
+    ]
+  },
+  {
+    "id": "word-assess",
+    "word": "assess",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "ipa": "/əˈses/",
+    "definition": "To judge or estimate the nature, importance or quality of something.",
+    "sinhala": "තක්සේරු කරනවා",
+    "example": "The lecturer assessed the students' project presentations.",
+    "collocations": [
+      "assess performance",
+      "assess risk",
+      "assess the impact"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "academic",
+      "assessment"
+    ],
+    "relatedLessonIds": [
+      "lesson-sentence-structure"
+    ]
+  },
+  {
+    "id": "word-analyse",
+    "word": "analyse",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "ipa": "/ˈænəlaɪz/",
+    "definition": "To examine something carefully to understand its components or meaning.",
+    "sinhala": "විශ්ලේෂණය කරනවා",
+    "example": "We analysed the survey responses to identify common patterns.",
+    "collocations": [
+      "analyse data",
+      "analyse results",
+      "analyse a problem"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "academic",
+      "research"
+    ],
+    "relatedLessonIds": [
+      "lesson-trends"
+    ]
+  },
+  {
+    "id": "word-exceed",
+    "word": "exceed",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "ipa": "/ɪkˈsiːd/",
+    "definition": "To be greater than a particular number, amount or expectation.",
+    "sinhala": "ඉක්මවා යනවා",
+    "example": "The final cost exceeded the original budget.",
+    "collocations": [
+      "exceed expectations",
+      "exceed the limit",
+      "exceed the budget"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "data",
+      "professional"
+    ],
+    "relatedLessonIds": [
+      "lesson-trends"
+    ]
+  },
+  {
+    "id": "word-adapt",
+    "word": "adapt",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "ipa": "/əˈdæpt/",
+    "definition": "To change in order to suit new conditions or circumstances.",
+    "sinhala": "අනුවර්තනය වෙනවා / හැඩගැසෙනවා",
+    "example": "Developers must adapt to changing technologies.",
+    "collocations": [
+      "adapt to change",
+      "adapt a method",
+      "quickly adapt"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "professional",
+      "learning"
+    ],
+    "relatedLessonIds": [
+      "lesson-learning-habits"
+    ]
+  },
+  {
+    "id": "word-persistent",
+    "word": "persistent",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "ipa": "/pəˈsɪstənt/",
+    "definition": "Continuing to try despite difficulties or repeated failures.",
+    "sinhala": "නොපසුබට / අඛණ්ඩව උත්සාහ කරන",
+    "example": "Persistent effort helps students overcome difficult challenges.",
+    "collocations": [
+      "persistent effort",
+      "persistent problem",
+      "persistent behaviour"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "personality",
+      "learning"
+    ],
+    "relatedLessonIds": [
+      "lesson-learning-habits"
+    ]
+  },
+  {
+    "id": "word-resilient",
+    "word": "resilient",
+    "partOfSpeech": "adjective",
+    "level": "C1",
+    "ipa": "/rɪˈzɪliənt/",
+    "definition": "Able to recover quickly from difficulties or setbacks.",
+    "sinhala": "දුෂ්කරතා මැද නැවත නැගී සිටිය හැකි",
+    "example": "Resilient developers learn from failures and try again.",
+    "collocations": [
+      "resilient mindset",
+      "highly resilient",
+      "resilient system"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "personality",
+      "professional"
+    ],
+    "relatedLessonIds": [
+      "lesson-learning-habits"
+    ]
+  },
+  {
+    "id": "word-diligent",
+    "word": "diligent",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "ipa": "/ˈdɪlɪdʒənt/",
+    "definition": "Showing careful and persistent effort when doing a task.",
+    "sinhala": "උනන්දුවෙන් හා කැපවීමෙන් වැඩ කරන",
+    "example": "A diligent student reviews lessons regularly.",
+    "collocations": [
+      "diligent worker",
+      "diligent effort",
+      "diligent approach"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "personality",
+      "study"
+    ],
+    "relatedLessonIds": [
+      "lesson-learning-habits"
+    ]
+  },
+  {
+    "id": "word-accountable",
+    "word": "accountable",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "ipa": "/əˈkaʊntəbəl/",
+    "definition": "Responsible for actions, decisions and their consequences.",
+    "sinhala": "වගකීම භාරගත යුතු",
+    "example": "Every team member is accountable for their assigned tasks.",
+    "collocations": [
+      "held accountable",
+      "accountable for results",
+      "remain accountable"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "professional",
+      "teamwork"
+    ],
+    "relatedLessonIds": [
+      "lesson-learning-habits"
+    ]
+  },
+  {
+    "id": "word-proactive",
+    "word": "proactive",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "ipa": "/ˌprəʊˈæktɪv/",
+    "definition": "Taking action in advance to deal with situations or prevent problems.",
+    "sinhala": "කල්තියා ක්‍රියාශීලීව කටයුතු කරන",
+    "example": "A proactive developer identifies risks before deployment.",
+    "collocations": [
+      "proactive approach",
+      "proactive measures",
+      "proactive communication"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "professional",
+      "problem-solving"
+    ],
+    "relatedLessonIds": [
+      "lesson-learning-habits"
+    ]
+  },
+  {
+    "id": "word-meticulous",
+    "word": "meticulous",
+    "partOfSpeech": "adjective",
+    "level": "C1",
+    "ipa": "/məˈtɪkjələs/",
+    "definition": "Extremely careful about details and accuracy.",
+    "sinhala": "ඉතා සූක්ෂම හා සැලකිලිමත්",
+    "example": "The engineer performed a meticulous review of the code.",
+    "collocations": [
+      "meticulous attention",
+      "meticulous planning",
+      "meticulous examination"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "personality",
+      "professional"
+    ],
+    "relatedLessonIds": [
+      "lesson-learning-habits"
+    ]
+  },
+  {
+    "id": "word-collaborate",
+    "word": "collaborate",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "ipa": "/kəˈlæbəreɪt/",
+    "definition": "To work together with others to achieve a shared goal.",
+    "sinhala": "සහයෝගයෙන් කටයුතු කරනවා",
+    "example": "Developers collaborate to deliver high-quality software.",
+    "collocations": [
+      "collaborate with colleagues",
+      "collaborate effectively",
+      "collaborate on a project"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "professional",
+      "teamwork"
+    ],
+    "relatedLessonIds": [
+      "lesson-learning-habits"
+    ]
+  },
+  {
+    "id": "word-negotiate",
+    "word": "negotiate",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "ipa": "/nɪˈɡəʊʃieɪt/",
+    "definition": "To discuss something with others to reach an agreement.",
+    "sinhala": "සාකච්ඡා කර එකඟතාවකට පැමිණෙනවා",
+    "example": "The team negotiated a realistic project deadline.",
+    "collocations": [
+      "negotiate an agreement",
+      "negotiate terms",
+      "negotiate a deadline"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "communication",
+      "professional"
+    ],
+    "relatedLessonIds": [
+      "lesson-learning-habits"
+    ]
+  },
+  {
+    "id": "word-articulate",
+    "word": "articulate",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/ɑːˈtɪkjuleɪt/",
+    "definition": "To express an idea or opinion clearly and effectively.",
+    "sinhala": "අදහසක් පැහැදිලිව ප්‍රකාශ කරනවා",
+    "example": "She articulated her concerns during the meeting.",
+    "collocations": [
+      "articulate an idea",
+      "clearly articulate",
+      "articulate a vision"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "communication",
+      "advanced"
+    ],
+    "relatedLessonIds": [
+      "lesson-sentence-structure"
+    ]
+  },
+  {
+    "id": "word-persuasive",
+    "word": "persuasive",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "ipa": "/pəˈsweɪsɪv/",
+    "definition": "Able to convince someone to accept an idea or take action.",
+    "sinhala": "ඒත්තු ගැන්විය හැකි",
+    "example": "The researcher presented a persuasive argument supported by evidence.",
+    "collocations": [
+      "persuasive argument",
+      "persuasive evidence",
+      "highly persuasive"
+    ],
+    "wordFamilyIds": [],
+    "tags": [
+      "academic",
+      "argument"
+    ],
+    "relatedLessonIds": [
+      "lesson-sentence-structure"
+    ]
+  }
 ]

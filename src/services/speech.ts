@@ -20,6 +20,7 @@ export interface SpeechEvents {
   onStart?: () => void;
   onEnd?: () => void;
   onError?: () => void;
+  onBoundary?: (characterIndex: number) => void;
 }
 
 export function stopSpeech() {
@@ -27,13 +28,12 @@ export function stopSpeech() {
 }
 
 
-export function speakVocabulary(entry: VocabularyEntry, settings: UserSettings, events: SpeechEvents = {}) {
+export function speakVocabulary(entry: VocabularyEntry, settings: UserSettings, events: SpeechEvents = {}, options: { includeExample?: boolean } = {}) {
   if (!window.speechSynthesis) return false;
   const voices = listEnglishVoices();
   const voice = voices.find((item) => item.name === settings.preferredVoiceName) ?? preferredVoice(voices);
   stopSpeech();
-  const spelling = [...entry.word].join(". ");
-  const utterance = new SpeechSynthesisUtterance(`${entry.word}. ${spelling} ..... .. .. ${entry.example}`);
+  const utterance = new SpeechSynthesisUtterance(options.includeExample === false ? entry.word : `${entry.word}. ${entry.example}`);
   utterance.voice = voice ?? null;
   utterance.lang = voice?.lang ?? "en-GB";
   utterance.rate = settings.speechRate;
@@ -41,6 +41,7 @@ export function speakVocabulary(entry: VocabularyEntry, settings: UserSettings, 
   utterance.onstart = events.onStart ?? null;
   utterance.onend = events.onEnd ?? null;
   utterance.onerror = events.onError ?? null;
+  utterance.onboundary = (event) => events.onBoundary?.(event.charIndex);
   window.speechSynthesis.speak(utterance);
   return true;
 }

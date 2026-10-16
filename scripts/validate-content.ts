@@ -1,16 +1,20 @@
 import foundationVocabulary from "../src/content/foundation-vocabulary.json" with { type: "json" };
 import vocabulary from "../src/content/vocabulary.json" with { type: "json" };
+import { exampleSinhala } from "../src/content/example-sinhala";
 import { learningQuestions, lessons } from "../src/content/lessons";
 
 const allVocabulary = [...foundationVocabulary, ...vocabulary];
 
 const ids = new Set<string>();
 const errors: string[] = [];
+const corruptEncoding = /(?:Ã.|Â.|à¶|â€|Ë.|É.|Ê.|Å.)/u;
 
 for (const entry of allVocabulary) {
   if (ids.has(entry.id)) errors.push(`Duplicate vocabulary ID: ${entry.id}`);
   ids.add(entry.id);
   if (!entry.word || !entry.definition || !entry.example) errors.push(`${entry.id} is missing a word, definition or example.`);
+  if (!exampleSinhala[entry.id]) errors.push(`${entry.id} is missing a Sinhala example translation.`);
+  if (corruptEncoding.test(JSON.stringify(entry))) errors.push(`${entry.id} contains incorrectly encoded text.`);
   if (!entry.wordFamilyIds.every((id) => allVocabulary.some((candidate) => candidate.id === id))) errors.push(`${entry.id} has a missing word-family reference.`);
 }
 
