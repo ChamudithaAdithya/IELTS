@@ -55,21 +55,15 @@ export function VocabularyExperience({ query, onQueryChange, entries, allEntries
   }, [detailOpen, familyPreview]);
 
   return <div className="page vocabulary-page">
-    <header className="page-title vocabulary-title">
-      <div><span className="eyebrow">Vocabulary Academy</span><h1>Build English, one useful word at a time.</h1><p>Choose a word to see its meaning, pronunciation, family and a natural example.</p></div>
-      <div className="vocabulary-count" aria-live="polite">{uniqueEntries.length} words ready</div>
-    </header>
-
     <section className="vocabulary-catalogue" aria-label="Vocabulary word list">
       <div className="catalogue-heading"><label className="catalogue-search"><Search size={17} /><input value={query} onChange={(event) => onQueryChange(event.target.value)} placeholder="Search words, meanings, or Sinhala" aria-label="Search vocabulary" />{query && <button type="button" onClick={() => onQueryChange("")} aria-label="Clear vocabulary search"><X size={16} /></button>}</label></div>
       <div className="vocabulary-list">
         {levelGroups.map((group) => <section className="vocabulary-level-group" key={group.level}>
-          <header><div><span>Level {group.level}</span><strong>{group.label}</strong></div><small>{group.entries.length} words</small></header>
+          <header><div><span>Level {group.level}</span><strong>{group.label}</strong></div></header>
           <div className="vocabulary-rows">{group.entries.map((entry) => <article className="vocabulary-list-card" key={entry.id}>
             <button className="vocabulary-open" onClick={() => setWord(entry)} aria-label={`Open ${entry.word}`}><strong>{entry.word}</strong><span className="word-card-sinhala" lang="si">{gloss(entry)}</span><span className="word-card-meta">{entry.partOfSpeech}</span></button>
             <ProgressMeters progress={progressByWord.get(entry.id)} />
             <button className="list-play" onClick={() => onQuickPlay(entry)} aria-label={`Hear ${entry.word}`}><Play size={18} fill="currentColor" /></button>
-            <button className="study-word" onClick={() => setWord(entry)}>Study</button>
           </article>)}</div>
         </section>)}
       </div>

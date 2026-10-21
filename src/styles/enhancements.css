@@ -79,8 +79,6 @@ h1, h2, h3, .vocabulary-open strong, .catalogue-heading strong, .vocabulary-leve
 
 /* Full-screen vocabulary catalogue and focused word-study dialogs. */
 .vocabulary-page { max-width: 1220px; }
-.vocabulary-title { display: flex; align-items: end; justify-content: space-between; gap: 24px; }
-.vocabulary-count, .catalogue-count { flex: none; padding: 9px 12px; border: 1px solid #bfe6dd; border-radius: 999px; color: #075c52; background: var(--tealp); font-size: .76rem; font-weight: 800; }
 .vocabulary-catalogue { margin-top: 22px; border: 1px solid var(--line); border-radius: 20px; background: rgba(255,255,255,.86); box-shadow: var(--shadow); }
 .catalogue-heading { position: sticky; z-index: 11; top: 73px; padding: 13px 18px; border-bottom: 1px solid #e5edf5; background: rgba(255,255,255,.94); box-shadow: 0 9px 20px rgba(15,23,42,.06); backdrop-filter: blur(16px); }
 .catalogue-heading > div { display: grid; gap: 3px; }
@@ -118,8 +116,6 @@ h1, h2, h3, .vocabulary-open strong, .catalogue-heading strong, .vocabulary-leve
 .progress-meter small { color: #94a3b8; font-size: .61rem; font-weight: 700; }
 .list-play { flex: none; display: grid; place-items: center; width: 38px; height: 38px; margin-right: 7px; border: 1px solid #cfe3f8; border-radius: 50%; color: var(--blue); background: #f4f9ff; transition: transform .16s, color .16s, background .16s; }
 .list-play:hover { color: #fff; background: var(--blue); transform: scale(1.07); }
-.study-word { flex: none; margin-right: 15px; padding: 7px 10px; border: 1px solid #d6e1ee; border-radius: 7px; color: var(--blue); background: #fff; font-size: .72rem; font-weight: 800; }
-.study-word:hover { border-color: var(--blue); color: #fff; background: var(--blue); }
 .word-modal-backdrop, .family-preview-backdrop { position: fixed; z-index: 1000; inset: 0; display: grid; place-items: center; padding: 28px; background: rgba(7, 22, 42, .68); backdrop-filter: blur(10px); }
 .word-modal { width: min(900px, 100%); max-height: calc(100vh - 56px); overflow: auto; padding: 32px; border: 1px solid rgba(255,255,255,.65); border-radius: 28px; background: linear-gradient(145deg, #fff, #fbfdff); box-shadow: 0 30px 90px rgba(0,16,40,.42); }
 .modal-topbar { display: flex; align-items: center; justify-content: space-between; }
@@ -172,7 +168,6 @@ h1, h2, h3, .vocabulary-open strong, .catalogue-heading strong, .vocabulary-leve
 }
 
 @media (max-width: 620px) {
-  .vocabulary-title { align-items: flex-start; flex-direction: column; gap: 12px; }
   .vocabulary-catalogue { margin-inline: -2px; border-radius: 15px; }
   .catalogue-heading { top: 57px; padding: 11px 12px; }
   .catalogue-search { width: 100%; height: 43px; }
@@ -181,7 +176,6 @@ h1, h2, h3, .vocabulary-open strong, .catalogue-heading strong, .vocabulary-leve
   .word-card-sinhala { padding-left: 10px; font-size: .78rem; }
   .progress-meters { display: none; }
   .list-play { width: 36px; height: 36px; margin-right: 5px; }
-  .study-word { display: none; }
   .word-modal-backdrop, .family-preview-backdrop { align-items: end; padding: 0; }
   .word-modal { max-height: calc(100vh - 12px); padding: 19px; border-radius: 21px 21px 0 0; }
   .word-modal-hero { align-items: flex-start; flex-direction: column; gap: 14px; }
